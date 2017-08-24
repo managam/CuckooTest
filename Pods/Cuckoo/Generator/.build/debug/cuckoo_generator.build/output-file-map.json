@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/cuckoo_generator.build/master.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Source/cuckoo_generator/CuckooGeneratorError.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/cuckoo_generator.build/CuckooGeneratorError.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/cuckoo_generator.build/CuckooGeneratorError.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/cuckoo_generator.build/CuckooGeneratorError~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/cuckoo_generator.build/CuckooGeneratorError.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Source/cuckoo_generator/GenerateMocksCommand.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/cuckoo_generator.build/GenerateMocksCommand.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/cuckoo_generator.build/GenerateMocksCommand.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/cuckoo_generator.build/GenerateMocksCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/cuckoo_generator.build/GenerateMocksCommand.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Source/cuckoo_generator/main.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/cuckoo_generator.build/main.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/cuckoo_generator.build/main.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/cuckoo_generator.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/cuckoo_generator.build/main.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Source/cuckoo_generator/VersionCommand.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/cuckoo_generator.build/VersionCommand.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/cuckoo_generator.build/VersionCommand.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/cuckoo_generator.build/VersionCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/cuckoo_generator.build/VersionCommand.swiftdeps"
+  }
+}

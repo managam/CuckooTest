@@ -1,0 +1,283 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "FormatCommand"
+- "dispatchMain"
+- "StructureCommand"
+- "IndexCommand"
+- "stderr"
+- "HelpCommand"
+- "UnicodeScalarType"
+- "DocCommand"
+- "StringLiteralType"
+- "RequestCommand"
+- "CommandRegistry"
+- "CompleteCommand"
+- "SyntaxCommand"
+- "fputs"
+- "SourceKittenError"
+- "VersionCommand"
+- "DispatchQueue"
+depends-member:
+- ["Ps9AnyObject", "async"]
+- ["Ps9AnyObject", "global"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "main"]
+- ["Ps9AnyObject", "register"]
+- ["P10Commandant16ArgumentProtocol", "init"]
+- ["Sb", "deinit"]
+- ["Ps7CVarArg", "async"]
+- ["Ps7CVarArg", "global"]
+- ["Ps7CVarArg", "init"]
+- ["Vs9Character", "deinit"]
+- ["P10Commandant15CommandProtocol", "ClientError"]
+- ["P10Commandant15CommandProtocol", "Options"]
+- ["P10Commandant15CommandProtocol", "init"]
+- ["C10Commandant15CommandRegistry", "deinit"]
+- ["C10Commandant15CommandRegistry", "init"]
+- ["C10Commandant15CommandRegistry", "main"]
+- ["C10Commandant15CommandRegistry", "register"]
+- ["Ps10Comparable", "init"]
+- ["V12sourcekitten15CompleteCommand", "ClientError"]
+- ["V12sourcekitten15CompleteCommand", "Options"]
+- ["V12sourcekitten15CompleteCommand", "deinit"]
+- ["V12sourcekitten15CompleteCommand", "init"]
+- ["Ps28CustomDebugStringConvertible", "async"]
+- ["Ps28CustomDebugStringConvertible", "global"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "async"]
+- ["Ps23CustomStringConvertible", "global"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["CSo14DispatchObject", "async"]
+- ["CSo14DispatchObject", "global"]
+- ["CSo13DispatchQueue", "async"]
+- ["CSo13DispatchQueue", "deinit"]
+- ["CSo13DispatchQueue", "global"]
+- ["V12sourcekitten10DocCommand", "ClientError"]
+- ["V12sourcekitten10DocCommand", "Options"]
+- ["V12sourcekitten10DocCommand", "deinit"]
+- ["V12sourcekitten10DocCommand", "init"]
+- ["Sd", "deinit"]
+- ["Ps9Equatable", "async"]
+- ["Ps9Equatable", "default"]
+- ["Ps9Equatable", "global"]
+- ["Ps9Equatable", "init"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps23ExpressibleByNilLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Sf", "deinit"]
+- ["V12sourcekitten13FormatCommand", "ClientError"]
+- ["V12sourcekitten13FormatCommand", "Options"]
+- ["V12sourcekitten13FormatCommand", "deinit"]
+- ["V12sourcekitten13FormatCommand", "init"]
+- ["Ps8Hashable", "async"]
+- ["Ps8Hashable", "default"]
+- ["Ps8Hashable", "global"]
+- ["Ps8Hashable", "init"]
+- ["V10Commandant11HelpCommand", "ClientError"]
+- ["V10Commandant11HelpCommand", "Options"]
+- ["V10Commandant11HelpCommand", "deinit"]
+- ["V10Commandant11HelpCommand", "init"]
+- ["V10Commandant11HelpOptions", "ClientError"]
+- ["SQ", "deinit"]
+- ["SQ", "init"]
+- ["V12sourcekitten12IndexCommand", "ClientError"]
+- ["V12sourcekitten12IndexCommand", "Options"]
+- ["V12sourcekitten12IndexCommand", "deinit"]
+- ["V12sourcekitten12IndexCommand", "init"]
+- ["Si", "deinit"]
+- ["Vs5Int16", "deinit"]
+- ["Vs5Int32", "deinit"]
+- ["Vs5Int64", "deinit"]
+- ["Vs4Int8", "deinit"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "async"]
+- ["CSo8NSObject", "global"]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "async"]
+- ["PSo16NSObjectProtocol", "global"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["Os5Never", "deinit"]
+- ["V10Commandant9NoOptions", "ClientError"]
+- ["CSo9OS_object", "async"]
+- ["CSo9OS_object", "global"]
+- ["VV12sourcekitten10DocCommand7Options", "ClientError"]
+- ["VV12sourcekitten10DocCommand7Options", "deinit"]
+- ["VV12sourcekitten12IndexCommand7Options", "ClientError"]
+- ["VV12sourcekitten12IndexCommand7Options", "deinit"]
+- ["VV12sourcekitten13FormatCommand7Options", "ClientError"]
+- ["VV12sourcekitten13FormatCommand7Options", "deinit"]
+- ["VV12sourcekitten13SyntaxCommand7Options", "ClientError"]
+- ["VV12sourcekitten13SyntaxCommand7Options", "deinit"]
+- ["VV12sourcekitten14RequestCommand7Options", "ClientError"]
+- ["VV12sourcekitten14RequestCommand7Options", "deinit"]
+- ["VV12sourcekitten15CompleteCommand7Options", "ClientError"]
+- ["VV12sourcekitten15CompleteCommand7Options", "deinit"]
+- ["VV12sourcekitten16StructureCommand7Options", "ClientError"]
+- ["VV12sourcekitten16StructureCommand7Options", "deinit"]
+- ["P10Commandant15OptionsProtocol", "ClientError"]
+- ["OV8Dispatch11DispatchQoS8QoSClass", "default"]
+- ["OV8Dispatch11DispatchQoS8QoSClass", "deinit"]
+- ["V12sourcekitten14RequestCommand", "ClientError"]
+- ["V12sourcekitten14RequestCommand", "Options"]
+- ["V12sourcekitten14RequestCommand", "deinit"]
+- ["V12sourcekitten14RequestCommand", "init"]
+- ["P21SourceKittenFramework22SourceKitRepresentable", "init"]
+- ["O12sourcekitten17SourceKittenError", "deinit"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["V12sourcekitten16StructureCommand", "ClientError"]
+- ["V12sourcekitten16StructureCommand", "Options"]
+- ["V12sourcekitten16StructureCommand", "deinit"]
+- ["V12sourcekitten16StructureCommand", "init"]
+- ["V12sourcekitten13SyntaxCommand", "ClientError"]
+- ["V12sourcekitten13SyntaxCommand", "Options"]
+- ["V12sourcekitten13SyntaxCommand", "deinit"]
+- ["V12sourcekitten13SyntaxCommand", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Su", "deinit"]
+- ["Vs6UInt16", "deinit"]
+- ["Vs6UInt32", "deinit"]
+- ["Vs6UInt64", "deinit"]
+- ["Vs5UInt8", "deinit"]
+- ["Sc", "deinit"]
+- ["SP", "deinit"]
+- ["V12sourcekitten14VersionCommand", "ClientError"]
+- ["V12sourcekitten14VersionCommand", "Options"]
+- ["V12sourcekitten14VersionCommand", "deinit"]
+- ["V12sourcekitten14VersionCommand", "init"]
+- ["P9SWXMLHash26XMLAttributeDeserializable", "init"]
+- ["P9SWXMLHash24XMLElementDeserializable", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "async"]
+- ["Ps9_Hashable", "default"]
+- ["Ps9_Hashable", "global"]
+- ["Ps9_Hashable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "P10Commandant16ArgumentProtocol"
+- "Sb"
+- "Ps7CVarArg"
+- "Vs9Character"
+- "P10Commandant15CommandProtocol"
+- "C10Commandant15CommandRegistry"
+- "Ps10Comparable"
+- "V12sourcekitten15CompleteCommand"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "CSo14DispatchObject"
+- "CSo13DispatchQueue"
+- "V12sourcekitten10DocCommand"
+- "Sd"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Sf"
+- "V12sourcekitten13FormatCommand"
+- "Ps8Hashable"
+- "V10Commandant11HelpCommand"
+- "V10Commandant11HelpOptions"
+- "SQ"
+- "V12sourcekitten12IndexCommand"
+- "Si"
+- "Vs5Int16"
+- "Vs5Int32"
+- "Vs5Int64"
+- "Vs4Int8"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Os5Never"
+- "V10Commandant9NoOptions"
+- "CSo9OS_object"
+- "VV12sourcekitten10DocCommand7Options"
+- "VV12sourcekitten12IndexCommand7Options"
+- "VV12sourcekitten13FormatCommand7Options"
+- "VV12sourcekitten13SyntaxCommand7Options"
+- "VV12sourcekitten14RequestCommand7Options"
+- "VV12sourcekitten15CompleteCommand7Options"
+- "VV12sourcekitten16StructureCommand7Options"
+- "P10Commandant15OptionsProtocol"
+- "OV8Dispatch11DispatchQoS8QoSClass"
+- "V12sourcekitten14RequestCommand"
+- "P21SourceKittenFramework22SourceKitRepresentable"
+- "O12sourcekitten17SourceKittenError"
+- "SS"
+- "V12sourcekitten16StructureCommand"
+- "V12sourcekitten13SyntaxCommand"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Su"
+- "Vs6UInt16"
+- "Vs6UInt32"
+- "Vs6UInt64"
+- "Vs5UInt8"
+- "Sc"
+- "SP"
+- "V12sourcekitten14VersionCommand"
+- "P9SWXMLHash26XMLAttributeDeserializable"
+- "P9SWXMLHash24XMLElementDeserializable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Commandant.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/CYaml.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Result.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/SourceKittenFramework.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/CXCompilationDatabase.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/BuildSystem.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/CXString.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/CXErrorCode.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/Platform.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/Index.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/Documentation.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKit-1.0.1/module.modulemap"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/module.modulemap"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/SWXMLHash.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Yams.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Yams-0.1.4/Sources/CYaml/include/yaml.h"
+interface-hash: "9425d68b0074dad65bcb0b3c1d3c5277"

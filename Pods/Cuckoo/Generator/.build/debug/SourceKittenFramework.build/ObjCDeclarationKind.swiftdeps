@@ -1,0 +1,473 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ObjCDeclarationKind"
+provides-nominal:
+- "O21SourceKittenFramework19ObjCDeclarationKind"
+provides-member:
+- ["O21SourceKittenFramework19ObjCDeclarationKind", ""]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Category"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Class"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Constant"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Enum"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Enumcase"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Initializer"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "MethodClass"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "MethodInstance"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Property"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Protocol"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Typedef"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Function"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Mark"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Struct"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Field"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Ivar"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "ModuleImport"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "UnexposedDecl"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "fromClang"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "CXCursor_ObjCInterfaceDecl"
+- !private "CXCursor_VarDecl"
+- !private "CXCursor_EnumConstantDecl"
+- !private "CXCursor_StructDecl"
+- "ObjCDeclarationKind"
+- !private "CXCursor_ObjCInstanceMethodDecl"
+- "CXCursorKind"
+- "=="
+- !private "~="
+- !private "CXCursor_TypedefDecl"
+- "AssignmentPrecedence"
+- !private "clang_getCursorKindSpelling"
+- !private "CXCursor_UnexposedDecl"
+- !private "CXCursor_ObjCIvarDecl"
+- !private "CXCursor_FunctionDecl"
+- !private "CXCursor_EnumDecl"
+- "StringLiteralType"
+- "String"
+- !private "CXCursor_ObjCCategoryDecl"
+- !private "CXCursor_FieldDecl"
+- !private "CXCursor_ObjCClassMethodDecl"
+- !private "CXCursor_ObjCPropertyDecl"
+- !private "CXCursor_ObjCProtocolDecl"
+- !private "CXCursor_ModuleImportDecl"
+- !private "fatalError"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- ["VSC12CXCursorKind", "deinit"]
+- ["VSC8CXString", "deinit"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Vs11ClosedRange", "deinit"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["Vs20CountableClosedRange", "deinit"]
+- !private ["Vs14CountableRange", "deinit"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "CXCursor_EnumConstantDecl"]
+- !private ["Ps9Equatable", "CXCursor_EnumDecl"]
+- !private ["Ps9Equatable", "CXCursor_FieldDecl"]
+- !private ["Ps9Equatable", "CXCursor_FunctionDecl"]
+- !private ["Ps9Equatable", "CXCursor_ModuleImportDecl"]
+- !private ["Ps9Equatable", "CXCursor_ObjCCategoryDecl"]
+- !private ["Ps9Equatable", "CXCursor_ObjCClassMethodDecl"]
+- !private ["Ps9Equatable", "CXCursor_ObjCInstanceMethodDecl"]
+- !private ["Ps9Equatable", "CXCursor_ObjCInterfaceDecl"]
+- !private ["Ps9Equatable", "CXCursor_ObjCIvarDecl"]
+- !private ["Ps9Equatable", "CXCursor_ObjCPropertyDecl"]
+- !private ["Ps9Equatable", "CXCursor_ObjCProtocolDecl"]
+- !private ["Ps9Equatable", "CXCursor_StructDecl"]
+- !private ["Ps9Equatable", "CXCursor_TypedefDecl"]
+- !private ["Ps9Equatable", "CXCursor_UnexposedDecl"]
+- !private ["Ps9Equatable", "CXCursor_VarDecl"]
+- ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "category"]
+- !private ["Ps9Equatable", "clang_getCursorKindSpelling"]
+- !private ["Ps9Equatable", "class"]
+- !private ["Ps9Equatable", "constant"]
+- !private ["Ps9Equatable", "enum"]
+- !private ["Ps9Equatable", "enumcase"]
+- !private ["Ps9Equatable", "fatalError"]
+- !private ["Ps9Equatable", "field"]
+- !private ["Ps9Equatable", "function"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "ivar"]
+- !private ["Ps9Equatable", "methodClass"]
+- !private ["Ps9Equatable", "methodInstance"]
+- !private ["Ps9Equatable", "moduleImport"]
+- !private ["Ps9Equatable", "property"]
+- !private ["Ps9Equatable", "protocol"]
+- ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "struct"]
+- !private ["Ps9Equatable", "typedef"]
+- !private ["Ps9Equatable", "unexposedDecl"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "CXCursor_EnumConstantDecl"]
+- !private ["Ps8Hashable", "CXCursor_EnumDecl"]
+- !private ["Ps8Hashable", "CXCursor_FieldDecl"]
+- !private ["Ps8Hashable", "CXCursor_FunctionDecl"]
+- !private ["Ps8Hashable", "CXCursor_ModuleImportDecl"]
+- !private ["Ps8Hashable", "CXCursor_ObjCCategoryDecl"]
+- !private ["Ps8Hashable", "CXCursor_ObjCClassMethodDecl"]
+- !private ["Ps8Hashable", "CXCursor_ObjCInstanceMethodDecl"]
+- !private ["Ps8Hashable", "CXCursor_ObjCInterfaceDecl"]
+- !private ["Ps8Hashable", "CXCursor_ObjCIvarDecl"]
+- !private ["Ps8Hashable", "CXCursor_ObjCPropertyDecl"]
+- !private ["Ps8Hashable", "CXCursor_ObjCProtocolDecl"]
+- !private ["Ps8Hashable", "CXCursor_StructDecl"]
+- !private ["Ps8Hashable", "CXCursor_TypedefDecl"]
+- !private ["Ps8Hashable", "CXCursor_UnexposedDecl"]
+- !private ["Ps8Hashable", "CXCursor_VarDecl"]
+- ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "category"]
+- !private ["Ps8Hashable", "clang_getCursorKindSpelling"]
+- !private ["Ps8Hashable", "class"]
+- !private ["Ps8Hashable", "constant"]
+- !private ["Ps8Hashable", "enum"]
+- !private ["Ps8Hashable", "enumcase"]
+- !private ["Ps8Hashable", "fatalError"]
+- !private ["Ps8Hashable", "field"]
+- !private ["Ps8Hashable", "function"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "ivar"]
+- !private ["Ps8Hashable", "methodClass"]
+- !private ["Ps8Hashable", "methodInstance"]
+- !private ["Ps8Hashable", "moduleImport"]
+- !private ["Ps8Hashable", "property"]
+- !private ["Ps8Hashable", "protocol"]
+- ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "struct"]
+- !private ["Ps8Hashable", "typedef"]
+- !private ["Ps8Hashable", "unexposedDecl"]
+- ["Ps8Hashable", ""]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["Os5Never", "deinit"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "CXCursorKind"]
+- !private ["O21SourceKittenFramework19ObjCDeclarationKind", "CXCursor_EnumConstantDecl"]
+- !private ["O21SourceKittenFramework19ObjCDeclarationKind", "CXCursor_EnumDecl"]
+- !private ["O21SourceKittenFramework19ObjCDeclarationKind", "CXCursor_FieldDecl"]
+- !private ["O21SourceKittenFramework19ObjCDeclarationKind", "CXCursor_FunctionDecl"]
+- !private ["O21SourceKittenFramework19ObjCDeclarationKind", "CXCursor_ModuleImportDecl"]
+- !private ["O21SourceKittenFramework19ObjCDeclarationKind", "CXCursor_ObjCCategoryDecl"]
+- !private ["O21SourceKittenFramework19ObjCDeclarationKind", "CXCursor_ObjCClassMethodDecl"]
+- !private ["O21SourceKittenFramework19ObjCDeclarationKind", "CXCursor_ObjCInstanceMethodDecl"]
+- !private ["O21SourceKittenFramework19ObjCDeclarationKind", "CXCursor_ObjCInterfaceDecl"]
+- !private ["O21SourceKittenFramework19ObjCDeclarationKind", "CXCursor_ObjCIvarDecl"]
+- !private ["O21SourceKittenFramework19ObjCDeclarationKind", "CXCursor_ObjCPropertyDecl"]
+- !private ["O21SourceKittenFramework19ObjCDeclarationKind", "CXCursor_ObjCProtocolDecl"]
+- !private ["O21SourceKittenFramework19ObjCDeclarationKind", "CXCursor_StructDecl"]
+- !private ["O21SourceKittenFramework19ObjCDeclarationKind", "CXCursor_TypedefDecl"]
+- !private ["O21SourceKittenFramework19ObjCDeclarationKind", "CXCursor_UnexposedDecl"]
+- !private ["O21SourceKittenFramework19ObjCDeclarationKind", "CXCursor_VarDecl"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Category"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Class"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Constant"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Enum"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Enumcase"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Field"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Function"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Initializer"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Ivar"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Mark"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "MethodClass"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "MethodInstance"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "ModuleImport"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "ObjCDeclarationKind"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Property"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Protocol"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "RawValue"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Struct"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "Typedef"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "UnexposedDecl"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "_toAnyHashable"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "category"]
+- !private ["O21SourceKittenFramework19ObjCDeclarationKind", "clang_getCursorKindSpelling"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "class"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "constant"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "deinit"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "enum"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "enumcase"]
+- !private ["O21SourceKittenFramework19ObjCDeclarationKind", "fatalError"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "field"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "fromClang"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "function"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "hashValue"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "init"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "initializer"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "ivar"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "mark"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "methodClass"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "methodInstance"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "moduleImport"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "property"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "protocol"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "rawValue"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "struct"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "typedef"]
+- ["O21SourceKittenFramework19ObjCDeclarationKind", "unexposedDecl"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps16RawRepresentable", "CXCursor_EnumConstantDecl"]
+- !private ["Ps16RawRepresentable", "CXCursor_EnumDecl"]
+- !private ["Ps16RawRepresentable", "CXCursor_FieldDecl"]
+- !private ["Ps16RawRepresentable", "CXCursor_FunctionDecl"]
+- !private ["Ps16RawRepresentable", "CXCursor_ModuleImportDecl"]
+- !private ["Ps16RawRepresentable", "CXCursor_ObjCCategoryDecl"]
+- !private ["Ps16RawRepresentable", "CXCursor_ObjCClassMethodDecl"]
+- !private ["Ps16RawRepresentable", "CXCursor_ObjCInstanceMethodDecl"]
+- !private ["Ps16RawRepresentable", "CXCursor_ObjCInterfaceDecl"]
+- !private ["Ps16RawRepresentable", "CXCursor_ObjCIvarDecl"]
+- !private ["Ps16RawRepresentable", "CXCursor_ObjCPropertyDecl"]
+- !private ["Ps16RawRepresentable", "CXCursor_ObjCProtocolDecl"]
+- !private ["Ps16RawRepresentable", "CXCursor_StructDecl"]
+- !private ["Ps16RawRepresentable", "CXCursor_TypedefDecl"]
+- !private ["Ps16RawRepresentable", "CXCursor_UnexposedDecl"]
+- !private ["Ps16RawRepresentable", "CXCursor_VarDecl"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- !private ["Ps16RawRepresentable", "category"]
+- !private ["Ps16RawRepresentable", "clang_getCursorKindSpelling"]
+- !private ["Ps16RawRepresentable", "class"]
+- !private ["Ps16RawRepresentable", "constant"]
+- !private ["Ps16RawRepresentable", "enum"]
+- !private ["Ps16RawRepresentable", "enumcase"]
+- !private ["Ps16RawRepresentable", "fatalError"]
+- !private ["Ps16RawRepresentable", "field"]
+- !private ["Ps16RawRepresentable", "function"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "ivar"]
+- !private ["Ps16RawRepresentable", "methodClass"]
+- !private ["Ps16RawRepresentable", "methodInstance"]
+- !private ["Ps16RawRepresentable", "moduleImport"]
+- !private ["Ps16RawRepresentable", "property"]
+- !private ["Ps16RawRepresentable", "protocol"]
+- ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps16RawRepresentable", "struct"]
+- !private ["Ps16RawRepresentable", "typedef"]
+- !private ["Ps16RawRepresentable", "unexposedDecl"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["P21SourceKittenFramework22SourceKitRepresentable", "_getBuiltinLogicValue"]
+- ["P21SourceKittenFramework22SourceKitRepresentable", "init"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["P9SWXMLHash26XMLAttributeDeserializable", "_getBuiltinLogicValue"]
+- !private ["P9SWXMLHash26XMLAttributeDeserializable", "hashValue"]
+- ["P9SWXMLHash26XMLAttributeDeserializable", "init"]
+- !private ["P9SWXMLHash24XMLElementDeserializable", "_getBuiltinLogicValue"]
+- !private ["P9SWXMLHash24XMLElementDeserializable", "hashValue"]
+- ["P9SWXMLHash24XMLElementDeserializable", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CXCursor_EnumConstantDecl"]
+- !private ["Ps9_Hashable", "CXCursor_EnumDecl"]
+- !private ["Ps9_Hashable", "CXCursor_FieldDecl"]
+- !private ["Ps9_Hashable", "CXCursor_FunctionDecl"]
+- !private ["Ps9_Hashable", "CXCursor_ModuleImportDecl"]
+- !private ["Ps9_Hashable", "CXCursor_ObjCCategoryDecl"]
+- !private ["Ps9_Hashable", "CXCursor_ObjCClassMethodDecl"]
+- !private ["Ps9_Hashable", "CXCursor_ObjCInstanceMethodDecl"]
+- !private ["Ps9_Hashable", "CXCursor_ObjCInterfaceDecl"]
+- !private ["Ps9_Hashable", "CXCursor_ObjCIvarDecl"]
+- !private ["Ps9_Hashable", "CXCursor_ObjCPropertyDecl"]
+- !private ["Ps9_Hashable", "CXCursor_ObjCProtocolDecl"]
+- !private ["Ps9_Hashable", "CXCursor_StructDecl"]
+- !private ["Ps9_Hashable", "CXCursor_TypedefDecl"]
+- !private ["Ps9_Hashable", "CXCursor_UnexposedDecl"]
+- !private ["Ps9_Hashable", "CXCursor_VarDecl"]
+- ["Ps9_Hashable", "RawValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "category"]
+- !private ["Ps9_Hashable", "clang_getCursorKindSpelling"]
+- !private ["Ps9_Hashable", "class"]
+- !private ["Ps9_Hashable", "constant"]
+- !private ["Ps9_Hashable", "enum"]
+- !private ["Ps9_Hashable", "enumcase"]
+- !private ["Ps9_Hashable", "fatalError"]
+- !private ["Ps9_Hashable", "field"]
+- !private ["Ps9_Hashable", "function"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "ivar"]
+- !private ["Ps9_Hashable", "methodClass"]
+- !private ["Ps9_Hashable", "methodInstance"]
+- !private ["Ps9_Hashable", "moduleImport"]
+- !private ["Ps9_Hashable", "property"]
+- !private ["Ps9_Hashable", "protocol"]
+- ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "struct"]
+- !private ["Ps9_Hashable", "typedef"]
+- !private ["Ps9_Hashable", "unexposedDecl"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "Ps7CVarArg"
+- "VSC12CXCursorKind"
+- "VSC8CXString"
+- !private "Vs9Character"
+- !private "Vs11ClosedRange"
+- "Ps10Comparable"
+- !private "Vs20CountableClosedRange"
+- !private "Vs14CountableRange"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Os5Never"
+- "O21SourceKittenFramework19ObjCDeclarationKind"
+- !private "Vs5Range"
+- "Ps16RawRepresentable"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- "P21SourceKittenFramework22SourceKitRepresentable"
+- "Vs12StaticString"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- "P9SWXMLHash26XMLAttributeDeserializable"
+- "P9SWXMLHash24XMLElementDeserializable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/CXCompilationDatabase.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/BuildSystem.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/CXString.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/CXErrorCode.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/Platform.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/Index.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/Documentation.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKit-1.0.1/module.modulemap"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/CYaml.build/module.modulemap"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/SWXMLHash.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Yams.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Yams-0.1.4/Sources/CYaml/include/yaml.h"
+interface-hash: "aeacc4506c94a572a05d661611572727"

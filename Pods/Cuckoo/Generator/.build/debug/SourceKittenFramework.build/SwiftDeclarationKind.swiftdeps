@@ -1,0 +1,346 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SwiftDeclarationKind"
+provides-nominal:
+- "O21SourceKittenFramework20SwiftDeclarationKind"
+provides-member:
+- ["O21SourceKittenFramework20SwiftDeclarationKind", ""]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "Associatedtype"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "Class"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "Enum"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "Enumcase"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "Enumelement"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "Extension"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "ExtensionClass"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "ExtensionEnum"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "ExtensionProtocol"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "ExtensionStruct"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionAccessorAddress"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionAccessorDidset"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionAccessorGetter"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionAccessorMutableaddress"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionAccessorSetter"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionAccessorWillset"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionConstructor"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionDestructor"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionFree"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionMethodClass"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionMethodInstance"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionMethodStatic"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionOperator"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionOperatorInfix"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionOperatorPostfix"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionOperatorPrefix"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionSubscript"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "GenericTypeParam"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "Module"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "PrecedenceGroup"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "Protocol"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "Struct"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "Typealias"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "VarClass"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "VarGlobal"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "VarInstance"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "VarLocal"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "VarParameter"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "VarStatic"]
+provides-dynamic-lookup:
+depends-top-level:
+- "StringLiteralType"
+- "String"
+- "SwiftLangSyntax"
+- "SwiftDeclarationKind"
+- "=="
+- !private "~="
+- !private "fatalError"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- !private ["Vs11ClosedRange", "deinit"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["Vs20CountableClosedRange", "deinit"]
+- !private ["Vs14CountableRange", "deinit"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "fatalError"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "fatalError"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", ""]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["Os5Never", "deinit"]
+- !private ["Vs5Range", "deinit"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- !private ["Ps16RawRepresentable", "fatalError"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["P21SourceKittenFramework22SourceKitRepresentable", "_getBuiltinLogicValue"]
+- ["P21SourceKittenFramework22SourceKitRepresentable", "init"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "Associatedtype"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "Class"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "Enum"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "Enumcase"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "Enumelement"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "Extension"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "ExtensionClass"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "ExtensionEnum"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "ExtensionProtocol"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "ExtensionStruct"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionAccessorAddress"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionAccessorDidset"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionAccessorGetter"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionAccessorMutableaddress"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionAccessorSetter"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionAccessorWillset"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionConstructor"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionDestructor"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionFree"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionMethodClass"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionMethodInstance"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionMethodStatic"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionOperator"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionOperatorInfix"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionOperatorPostfix"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionOperatorPrefix"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "FunctionSubscript"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "GenericTypeParam"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "Module"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "PrecedenceGroup"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "Protocol"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "RawValue"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "Struct"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "SwiftDeclarationKind"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "Typealias"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "VarClass"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "VarGlobal"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "VarInstance"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "VarLocal"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "VarParameter"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "VarStatic"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "_toAnyHashable"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "associatedtype"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "class"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "deinit"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "enum"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "enumcase"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "enumelement"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "extension"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "extensionClass"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "extensionEnum"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "extensionProtocol"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "extensionStruct"]
+- !private ["O21SourceKittenFramework20SwiftDeclarationKind", "fatalError"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "functionAccessorAddress"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "functionAccessorDidset"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "functionAccessorGetter"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "functionAccessorMutableaddress"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "functionAccessorSetter"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "functionAccessorWillset"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "functionConstructor"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "functionDestructor"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "functionFree"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "functionMethodClass"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "functionMethodInstance"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "functionMethodStatic"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "functionOperator"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "functionOperatorInfix"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "functionOperatorPostfix"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "functionOperatorPrefix"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "functionSubscript"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "genericTypeParam"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "hashValue"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "init"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "module"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "precedenceGroup"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "protocol"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "rawValue"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "struct"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "typealias"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "varClass"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "varGlobal"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "varInstance"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "varLocal"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "varParameter"]
+- ["O21SourceKittenFramework20SwiftDeclarationKind", "varStatic"]
+- ["P21SourceKittenFramework15SwiftLangSyntax", "RawValue"]
+- ["P21SourceKittenFramework15SwiftLangSyntax", "_toAnyHashable"]
+- !private ["P21SourceKittenFramework15SwiftLangSyntax", "fatalError"]
+- ["P21SourceKittenFramework15SwiftLangSyntax", "hashValue"]
+- ["P21SourceKittenFramework15SwiftLangSyntax", "init"]
+- ["P21SourceKittenFramework15SwiftLangSyntax", "rawValue"]
+- ["P21SourceKittenFramework15SwiftLangSyntax", ""]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Su", "deinit"]
+- !private ["P9SWXMLHash26XMLAttributeDeserializable", "_getBuiltinLogicValue"]
+- !private ["P9SWXMLHash26XMLAttributeDeserializable", "hashValue"]
+- ["P9SWXMLHash26XMLAttributeDeserializable", "init"]
+- !private ["P9SWXMLHash24XMLElementDeserializable", "_getBuiltinLogicValue"]
+- !private ["P9SWXMLHash24XMLElementDeserializable", "hashValue"]
+- ["P9SWXMLHash24XMLElementDeserializable", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "RawValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "fatalError"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "rawValue"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Vs11ClosedRange"
+- "Ps10Comparable"
+- !private "Vs20CountableClosedRange"
+- !private "Vs14CountableRange"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Os5Never"
+- !private "Vs5Range"
+- "Ps16RawRepresentable"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- "P21SourceKittenFramework22SourceKitRepresentable"
+- "Vs12StaticString"
+- !private "Ps10Strideable"
+- "SS"
+- "O21SourceKittenFramework20SwiftDeclarationKind"
+- "P21SourceKittenFramework15SwiftLangSyntax"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Su"
+- "P9SWXMLHash26XMLAttributeDeserializable"
+- "P9SWXMLHash24XMLElementDeserializable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/CXCompilationDatabase.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/BuildSystem.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/CXString.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/CXErrorCode.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/Platform.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/Index.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/Documentation.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKit-1.0.1/module.modulemap"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/CYaml.build/module.modulemap"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/SWXMLHash.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Yams.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Yams-0.1.4/Sources/CYaml/include/yaml.h"
+interface-hash: "17ada32983cb5c035b4079930506d79a"

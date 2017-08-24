@@ -1,0 +1,121 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FileSystemEventStream"
+provides-nominal:
+- "V7FileKit21FileSystemEventStream"
+provides-member:
+- ["V7FileKit21FileSystemEventStream", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "FileSystemEventStream"
+- !private "FSEventStreamFlushSync"
+- !private "FSEventStreamGetLatestEventId"
+- !private "FSEventStreamStop"
+- !private "FSEventStreamGetDeviceBeingWatched"
+- !private "FSEventStreamShow"
+- !private "FSEventStreamRelease"
+- "CFRunLoop"
+- "CFString"
+- !private "FSEventStreamScheduleWithRunLoop"
+- "FSEventStreamEventId"
+- "FSEventStreamRef"
+- !private "FSEventStreamStart"
+- !private "FSEventStreamInvalidate"
+- !private "FSEventStreamUnscheduleFromRunLoop"
+- !private "FSEventStreamFlushAsync"
+- "RawRepresentable"
+- !private "FSEventStreamSetDispatchQueue"
+- "CFRunLoopMode"
+- "dev_t"
+- "DispatchQueue"
+depends-member:
+- ["Sb", "deinit"]
+- ["CSo9CFRunLoop", "deinit"]
+- ["VSC13CFRunLoopMode", "deinit"]
+- !private ["VSC13CFRunLoopMode", "rawValue"]
+- ["CSo8CFString", "deinit"]
+- ["CSo13DispatchQueue", "deinit"]
+- ["V7FileKit21FileSystemEventStream", "CFRunLoop"]
+- ["V7FileKit21FileSystemEventStream", "CFRunLoopMode"]
+- ["V7FileKit21FileSystemEventStream", "CFString"]
+- ["V7FileKit21FileSystemEventStream", "DispatchQueue"]
+- ["V7FileKit21FileSystemEventStream", "FSEventStreamEventId"]
+- !private ["V7FileKit21FileSystemEventStream", "FSEventStreamFlushAsync"]
+- !private ["V7FileKit21FileSystemEventStream", "FSEventStreamFlushSync"]
+- !private ["V7FileKit21FileSystemEventStream", "FSEventStreamGetDeviceBeingWatched"]
+- !private ["V7FileKit21FileSystemEventStream", "FSEventStreamGetLatestEventId"]
+- !private ["V7FileKit21FileSystemEventStream", "FSEventStreamInvalidate"]
+- ["V7FileKit21FileSystemEventStream", "FSEventStreamRef"]
+- !private ["V7FileKit21FileSystemEventStream", "FSEventStreamRelease"]
+- !private ["V7FileKit21FileSystemEventStream", "FSEventStreamScheduleWithRunLoop"]
+- !private ["V7FileKit21FileSystemEventStream", "FSEventStreamSetDispatchQueue"]
+- !private ["V7FileKit21FileSystemEventStream", "FSEventStreamShow"]
+- !private ["V7FileKit21FileSystemEventStream", "FSEventStreamStart"]
+- !private ["V7FileKit21FileSystemEventStream", "FSEventStreamStop"]
+- !private ["V7FileKit21FileSystemEventStream", "FSEventStreamUnscheduleFromRunLoop"]
+- ["V7FileKit21FileSystemEventStream", "RawValue"]
+- ["V7FileKit21FileSystemEventStream", "deinit"]
+- ["V7FileKit21FileSystemEventStream", "dev_t"]
+- ["V7FileKit21FileSystemEventStream", "deviceBeingWatched"]
+- ["V7FileKit21FileSystemEventStream", "flushAsync"]
+- ["V7FileKit21FileSystemEventStream", "flushSync"]
+- ["V7FileKit21FileSystemEventStream", "init"]
+- ["V7FileKit21FileSystemEventStream", "invalidate"]
+- ["V7FileKit21FileSystemEventStream", "lastEventId"]
+- ["V7FileKit21FileSystemEventStream", "rawValue"]
+- ["V7FileKit21FileSystemEventStream", "release"]
+- ["V7FileKit21FileSystemEventStream", "scheduleWithRunLoop"]
+- ["V7FileKit21FileSystemEventStream", "setDispatchQueue"]
+- ["V7FileKit21FileSystemEventStream", "show"]
+- ["V7FileKit21FileSystemEventStream", "start"]
+- ["V7FileKit21FileSystemEventStream", "stop"]
+- ["V7FileKit21FileSystemEventStream", "unscheduleFromRunLoop"]
+- ["Vs5Int32", "deinit"]
+- ["Vs13OpaquePointer", "deinit"]
+- !private ["Ps16RawRepresentable", "FSEventStreamFlushAsync"]
+- !private ["Ps16RawRepresentable", "FSEventStreamFlushSync"]
+- !private ["Ps16RawRepresentable", "FSEventStreamGetDeviceBeingWatched"]
+- !private ["Ps16RawRepresentable", "FSEventStreamGetLatestEventId"]
+- !private ["Ps16RawRepresentable", "FSEventStreamInvalidate"]
+- !private ["Ps16RawRepresentable", "FSEventStreamRelease"]
+- !private ["Ps16RawRepresentable", "FSEventStreamScheduleWithRunLoop"]
+- !private ["Ps16RawRepresentable", "FSEventStreamSetDispatchQueue"]
+- !private ["Ps16RawRepresentable", "FSEventStreamShow"]
+- !private ["Ps16RawRepresentable", "FSEventStreamStart"]
+- !private ["Ps16RawRepresentable", "FSEventStreamStop"]
+- !private ["Ps16RawRepresentable", "FSEventStreamUnscheduleFromRunLoop"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", ""]
+- ["Vs6UInt64", "deinit"]
+- !private ["Ps20_SwiftNewtypeWrapper", "rawValue"]
+depends-nominal:
+- "Sb"
+- "CSo9CFRunLoop"
+- "VSC13CFRunLoopMode"
+- "CSo8CFString"
+- "CSo13DispatchQueue"
+- "V7FileKit21FileSystemEventStream"
+- "Vs5Int32"
+- "Vs13OpaquePointer"
+- "Ps16RawRepresentable"
+- "Vs6UInt64"
+- !private "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/CYaml.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+interface-hash: "e62381a1f382cfd0cc92cec1f4ee358b"

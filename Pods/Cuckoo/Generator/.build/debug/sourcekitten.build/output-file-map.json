@@ -1,0 +1,65 @@
+{
+  "": {
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/master.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKitten-0.16.0/Source/sourcekitten/CompleteCommand.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/CompleteCommand.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/CompleteCommand.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/CompleteCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/CompleteCommand.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKitten-0.16.0/Source/sourcekitten/DocCommand.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/DocCommand.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/DocCommand.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/DocCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/DocCommand.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKitten-0.16.0/Source/sourcekitten/Errors.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/Errors.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/Errors.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/Errors~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/Errors.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKitten-0.16.0/Source/sourcekitten/FormatCommand.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/FormatCommand.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/FormatCommand.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/FormatCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/FormatCommand.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKitten-0.16.0/Source/sourcekitten/IndexCommand.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/IndexCommand.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/IndexCommand.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/IndexCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/IndexCommand.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKitten-0.16.0/Source/sourcekitten/main.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/main.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/main.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/main.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKitten-0.16.0/Source/sourcekitten/StructureCommand.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/StructureCommand.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/StructureCommand.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/StructureCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/StructureCommand.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKitten-0.16.0/Source/sourcekitten/SyntaxCommand.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/SyntaxCommand.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/SyntaxCommand.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/SyntaxCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/SyntaxCommand.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKitten-0.16.0/Source/sourcekitten/VersionCommand.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/VersionCommand.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/VersionCommand.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/VersionCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/VersionCommand.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKitten-0.16.0/Source/sourcekitten/YamlRequestCommand.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/YamlRequestCommand.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/YamlRequestCommand.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/YamlRequestCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/sourcekitten.build/YamlRequestCommand.swiftdeps"
+  }
+}

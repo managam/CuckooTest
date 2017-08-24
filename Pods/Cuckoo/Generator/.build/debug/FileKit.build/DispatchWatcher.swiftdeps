@@ -1,0 +1,503 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DispatchFileSystemWatcherDelegate"
+- "DispatchFileSystemWatcher"
+provides-nominal:
+- "P7FileKit33DispatchFileSystemWatcherDelegate"
+- "C7FileKit25DispatchFileSystemWatcher"
+provides-member:
+- ["P7FileKit33DispatchFileSystemWatcherDelegate", ""]
+- ["C7FileKit25DispatchFileSystemWatcher", ""]
+- ["V7FileKit4Path", ""]
+- ["P7FileKit33DispatchFileSystemWatcherDelegate", "fsWatcherDidObserveDelete"]
+- ["P7FileKit33DispatchFileSystemWatcherDelegate", "fsWatcherDidObserveWrite"]
+- ["P7FileKit33DispatchFileSystemWatcherDelegate", "fsWatcherDidObserveExtend"]
+- ["P7FileKit33DispatchFileSystemWatcherDelegate", "fsWatcherDidObserveAttrib"]
+- ["P7FileKit33DispatchFileSystemWatcherDelegate", "fsWatcherDidObserveLink"]
+- ["P7FileKit33DispatchFileSystemWatcherDelegate", "fsWatcherDidObserveRename"]
+- ["P7FileKit33DispatchFileSystemWatcherDelegate", "fsWatcherDidObserveRevoke"]
+- ["P7FileKit33DispatchFileSystemWatcherDelegate", "fsWatcherDidObserveCreate"]
+- ["P7FileKit33DispatchFileSystemWatcherDelegate", "fsWatcherDidObserveDirectoryChange"]
+- ["V7FileKit4Path", "watch2"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Darwin"
+- !private "DispatchSource"
+- "CInt"
+- "DispatchFileSystemEvents"
+- "Void"
+- "DispatchFileSystemWatcherDelegate"
+- "AssignmentPrecedence"
+- !private "=="
+- "Bool"
+- "Path"
+- "DispatchQueue"
+- !private "!"
+- "DispatchSourceProtocol"
+- !private "open"
+- !private "!="
+- !private "&&"
+- "DispatchFileSystemWatcher"
+- !private "O_EVTONLY"
+- !private "||"
+- !private "??"
+- "BooleanLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "Darwin"]
+- !private ["Ps9AnyObject", "DispatchFileSystemEvents"]
+- !private ["Ps9AnyObject", "DispatchSource"]
+- !private ["Ps9AnyObject", "FileSystemEvent"]
+- !private ["Ps9AnyObject", "O_EVTONLY"]
+- !private ["Ps9AnyObject", "callback"]
+- !private ["Ps9AnyObject", "close"]
+- !private ["Ps9AnyObject", "createWatcher"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "dispatchDelegate"]
+- !private ["Ps9AnyObject", "events"]
+- !private ["Ps9AnyObject", "fileDescriptor"]
+- !private ["Ps9AnyObject", "global"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "makeFileSystemObjectSource"]
+- !private ["Ps9AnyObject", "open"]
+- !private ["Ps9AnyObject", "path"]
+- !private ["Ps9AnyObject", "queue"]
+- !private ["Ps9AnyObject", "source"]
+- !private ["Ps9AnyObject", "startWatching"]
+- !private ["Ps9AnyObject", "stopWatching"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "FileSystemEvent"]
+- !private ["Ps7CVarArg", "global"]
+- !private ["Ps7CVarArg", "makeFileSystemObjectSource"]
+- !private ["Ps28CustomDebugStringConvertible", "All"]
+- !private ["Ps28CustomDebugStringConvertible", "Attribute"]
+- !private ["Ps28CustomDebugStringConvertible", "Create"]
+- !private ["Ps28CustomDebugStringConvertible", "Delete"]
+- !private ["Ps28CustomDebugStringConvertible", "DispatchFileSystemWatcher"]
+- !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Extend"]
+- !private ["Ps28CustomDebugStringConvertible", "FileSystemEvent"]
+- !private ["Ps28CustomDebugStringConvertible", "Link"]
+- !private ["Ps28CustomDebugStringConvertible", "Rename"]
+- !private ["Ps28CustomDebugStringConvertible", "Revoke"]
+- !private ["Ps28CustomDebugStringConvertible", "Write"]
+- !private ["Ps28CustomDebugStringConvertible", "_safeRawValue"]
+- !private ["Ps28CustomDebugStringConvertible", "absolute"]
+- !private ["Ps28CustomDebugStringConvertible", "contains"]
+- !private ["Ps28CustomDebugStringConvertible", "exists"]
+- !private ["Ps28CustomDebugStringConvertible", "global"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isDirectoryFile"]
+- !private ["Ps28CustomDebugStringConvertible", "isRegular"]
+- !private ["Ps28CustomDebugStringConvertible", "makeFileSystemObjectSource"]
+- !private ["Ps28CustomDebugStringConvertible", "parent"]
+- !private ["Ps28CustomDebugStringConvertible", "rawValue"]
+- !private ["Ps28CustomDebugStringConvertible", "remove"]
+- !private ["Ps28CustomDebugStringConvertible", "watch2"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "Create"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "All"]
+- !private ["Ps23CustomStringConvertible", "Attribute"]
+- !private ["Ps23CustomStringConvertible", "Create"]
+- !private ["Ps23CustomStringConvertible", "Delete"]
+- !private ["Ps23CustomStringConvertible", "DispatchFileSystemWatcher"]
+- !private ["Ps23CustomStringConvertible", "DispatchQueue"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Extend"]
+- !private ["Ps23CustomStringConvertible", "FileSystemEvent"]
+- !private ["Ps23CustomStringConvertible", "Link"]
+- !private ["Ps23CustomStringConvertible", "Rename"]
+- !private ["Ps23CustomStringConvertible", "Revoke"]
+- !private ["Ps23CustomStringConvertible", "Write"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_safeRawValue"]
+- !private ["Ps23CustomStringConvertible", "absolute"]
+- !private ["Ps23CustomStringConvertible", "contains"]
+- !private ["Ps23CustomStringConvertible", "exists"]
+- !private ["Ps23CustomStringConvertible", "global"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isDirectoryFile"]
+- !private ["Ps23CustomStringConvertible", "isRegular"]
+- !private ["Ps23CustomStringConvertible", "makeFileSystemObjectSource"]
+- !private ["Ps23CustomStringConvertible", "parent"]
+- !private ["Ps23CustomStringConvertible", "rawValue"]
+- !private ["Ps23CustomStringConvertible", "remove"]
+- !private ["Ps23CustomStringConvertible", "watch2"]
+- !private ["V7FileKit24DispatchFileSystemEvents", "All"]
+- !private ["V7FileKit24DispatchFileSystemEvents", "Attribute"]
+- !private ["V7FileKit24DispatchFileSystemEvents", "Create"]
+- !private ["V7FileKit24DispatchFileSystemEvents", "Delete"]
+- !private ["V7FileKit24DispatchFileSystemEvents", "Element"]
+- !private ["V7FileKit24DispatchFileSystemEvents", "Extend"]
+- !private ["V7FileKit24DispatchFileSystemEvents", "Link"]
+- !private ["V7FileKit24DispatchFileSystemEvents", "Rename"]
+- !private ["V7FileKit24DispatchFileSystemEvents", "Revoke"]
+- !private ["V7FileKit24DispatchFileSystemEvents", "Write"]
+- !private ["V7FileKit24DispatchFileSystemEvents", "contains"]
+- ["V7FileKit24DispatchFileSystemEvents", "deinit"]
+- !private ["V7FileKit24DispatchFileSystemEvents", "init"]
+- !private ["V7FileKit24DispatchFileSystemEvents", "rawValue"]
+- !private ["V7FileKit24DispatchFileSystemEvents", "remove"]
+- ["C7FileKit25DispatchFileSystemWatcher", "Bool"]
+- ["C7FileKit25DispatchFileSystemWatcher", "CInt"]
+- !private ["C7FileKit25DispatchFileSystemWatcher", "Darwin"]
+- ["C7FileKit25DispatchFileSystemWatcher", "DispatchFileSystemEvents"]
+- ["C7FileKit25DispatchFileSystemWatcher", "DispatchFileSystemWatcher"]
+- ["C7FileKit25DispatchFileSystemWatcher", "DispatchFileSystemWatcherDelegate"]
+- ["C7FileKit25DispatchFileSystemWatcher", "DispatchQueue"]
+- !private ["C7FileKit25DispatchFileSystemWatcher", "DispatchSource"]
+- ["C7FileKit25DispatchFileSystemWatcher", "DispatchSourceProtocol"]
+- !private ["C7FileKit25DispatchFileSystemWatcher", "O_EVTONLY"]
+- ["C7FileKit25DispatchFileSystemWatcher", "Path"]
+- ["C7FileKit25DispatchFileSystemWatcher", "Void"]
+- !private ["C7FileKit25DispatchFileSystemWatcher", "callback"]
+- ["C7FileKit25DispatchFileSystemWatcher", "close"]
+- ["C7FileKit25DispatchFileSystemWatcher", "createWatcher"]
+- ["C7FileKit25DispatchFileSystemWatcher", "currentEvent"]
+- ["C7FileKit25DispatchFileSystemWatcher", "deinit"]
+- ["C7FileKit25DispatchFileSystemWatcher", "delegate"]
+- !private ["C7FileKit25DispatchFileSystemWatcher", "dispatchDelegate"]
+- ["C7FileKit25DispatchFileSystemWatcher", "events"]
+- !private ["C7FileKit25DispatchFileSystemWatcher", "fileDescriptor"]
+- ["C7FileKit25DispatchFileSystemWatcher", "init"]
+- !private ["C7FileKit25DispatchFileSystemWatcher", "open"]
+- ["C7FileKit25DispatchFileSystemWatcher", "path"]
+- !private ["C7FileKit25DispatchFileSystemWatcher", "queue"]
+- !private ["C7FileKit25DispatchFileSystemWatcher", "source"]
+- ["C7FileKit25DispatchFileSystemWatcher", "startWatching"]
+- ["C7FileKit25DispatchFileSystemWatcher", "stopWatching"]
+- ["P7FileKit33DispatchFileSystemWatcherDelegate", "DispatchFileSystemWatcher"]
+- !private ["P7FileKit33DispatchFileSystemWatcherDelegate", "deinit"]
+- ["P7FileKit33DispatchFileSystemWatcherDelegate", "fsWatcherDidObserveAttrib"]
+- ["P7FileKit33DispatchFileSystemWatcherDelegate", "fsWatcherDidObserveCreate"]
+- ["P7FileKit33DispatchFileSystemWatcherDelegate", "fsWatcherDidObserveDelete"]
+- ["P7FileKit33DispatchFileSystemWatcherDelegate", "fsWatcherDidObserveDirectoryChange"]
+- ["P7FileKit33DispatchFileSystemWatcherDelegate", "fsWatcherDidObserveExtend"]
+- ["P7FileKit33DispatchFileSystemWatcherDelegate", "fsWatcherDidObserveLink"]
+- ["P7FileKit33DispatchFileSystemWatcherDelegate", "fsWatcherDidObserveRename"]
+- ["P7FileKit33DispatchFileSystemWatcherDelegate", "fsWatcherDidObserveRevoke"]
+- ["P7FileKit33DispatchFileSystemWatcherDelegate", "fsWatcherDidObserveWrite"]
+- !private ["CSo14DispatchObject", "FileSystemEvent"]
+- !private ["CSo14DispatchObject", "global"]
+- !private ["CSo14DispatchObject", "makeFileSystemObjectSource"]
+- ["CSo13DispatchQueue", "deinit"]
+- !private ["CSo13DispatchQueue", "global"]
+- !private ["CSo14DispatchSource", "FileSystemEvent"]
+- !private ["CSo14DispatchSource", "makeFileSystemObjectSource"]
+- !private ["PSo30DispatchSourceFileSystemObject", "FileSystemEvent"]
+- ["PSo30DispatchSourceFileSystemObject", "deinit"]
+- !private ["PSo30DispatchSourceFileSystemObject", "makeFileSystemObjectSource"]
+- !private ["PSo25DispatchSourceMachReceive", "FileSystemEvent"]
+- !private ["PSo25DispatchSourceMachReceive", "makeFileSystemObjectSource"]
+- !private ["PSo22DispatchSourceMachSend", "FileSystemEvent"]
+- !private ["PSo22DispatchSourceMachSend", "makeFileSystemObjectSource"]
+- !private ["PSo28DispatchSourceMemoryPressure", "FileSystemEvent"]
+- !private ["PSo28DispatchSourceMemoryPressure", "makeFileSystemObjectSource"]
+- !private ["PSo21DispatchSourceProcess", "FileSystemEvent"]
+- !private ["PSo21DispatchSourceProcess", "makeFileSystemObjectSource"]
+- !private ["PSo22DispatchSourceProtocol", "FileSystemEvent"]
+- !private ["PSo22DispatchSourceProtocol", "cancel"]
+- !private ["PSo22DispatchSourceProtocol", "data"]
+- ["PSo22DispatchSourceProtocol", "deinit"]
+- !private ["PSo22DispatchSourceProtocol", "makeFileSystemObjectSource"]
+- !private ["PSo22DispatchSourceProtocol", "resume"]
+- !private ["PSo22DispatchSourceProtocol", "setCancelHandler"]
+- !private ["PSo22DispatchSourceProtocol", "setEventHandler"]
+- !private ["PSo18DispatchSourceRead", "FileSystemEvent"]
+- !private ["PSo18DispatchSourceRead", "makeFileSystemObjectSource"]
+- !private ["PSo20DispatchSourceSignal", "FileSystemEvent"]
+- !private ["PSo20DispatchSourceSignal", "makeFileSystemObjectSource"]
+- !private ["PSo19DispatchSourceTimer", "FileSystemEvent"]
+- !private ["PSo19DispatchSourceTimer", "makeFileSystemObjectSource"]
+- !private ["PSo25DispatchSourceUserDataAdd", "FileSystemEvent"]
+- !private ["PSo25DispatchSourceUserDataAdd", "makeFileSystemObjectSource"]
+- !private ["PSo24DispatchSourceUserDataOr", "FileSystemEvent"]
+- !private ["PSo24DispatchSourceUserDataOr", "makeFileSystemObjectSource"]
+- !private ["PSo19DispatchSourceWrite", "FileSystemEvent"]
+- !private ["PSo19DispatchSourceWrite", "makeFileSystemObjectSource"]
+- !private ["Ps9Equatable", "All"]
+- !private ["Ps9Equatable", "Attribute"]
+- !private ["Ps9Equatable", "Create"]
+- !private ["Ps9Equatable", "Delete"]
+- !private ["Ps9Equatable", "DispatchFileSystemWatcher"]
+- !private ["Ps9Equatable", "DispatchQueue"]
+- !private ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "Extend"]
+- !private ["Ps9Equatable", "FileSystemEvent"]
+- !private ["Ps9Equatable", "Link"]
+- !private ["Ps9Equatable", "Rename"]
+- !private ["Ps9Equatable", "Revoke"]
+- !private ["Ps9Equatable", "Write"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_safeRawValue"]
+- !private ["Ps9Equatable", "absolute"]
+- !private ["Ps9Equatable", "contains"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "exists"]
+- !private ["Ps9Equatable", "global"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isDirectoryFile"]
+- !private ["Ps9Equatable", "isRegular"]
+- !private ["Ps9Equatable", "makeFileSystemObjectSource"]
+- !private ["Ps9Equatable", "parent"]
+- !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "remove"]
+- !private ["Ps9Equatable", "watch2"]
+- !private ["Ps25ExpressibleByArrayLiteral", "All"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Attribute"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Create"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Delete"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Extend"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Link"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Rename"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Revoke"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Write"]
+- !private ["Ps25ExpressibleByArrayLiteral", "contains"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "rawValue"]
+- !private ["Ps25ExpressibleByArrayLiteral", "remove"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "DispatchFileSystemWatcher"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "DispatchQueue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "_safeRawValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "absolute"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "exists"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "isDirectoryFile"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "isRegular"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "parent"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "watch2"]
+- !private ["Ps23ExpressibleByNilLiteral", "Create"]
+- !private ["Ps32ExpressibleByStringInterpolation", "DispatchFileSystemWatcher"]
+- !private ["Ps32ExpressibleByStringInterpolation", "DispatchQueue"]
+- !private ["Ps32ExpressibleByStringInterpolation", "_safeRawValue"]
+- !private ["Ps32ExpressibleByStringInterpolation", "absolute"]
+- !private ["Ps32ExpressibleByStringInterpolation", "exists"]
+- !private ["Ps32ExpressibleByStringInterpolation", "isDirectoryFile"]
+- !private ["Ps32ExpressibleByStringInterpolation", "isRegular"]
+- !private ["Ps32ExpressibleByStringInterpolation", "parent"]
+- !private ["Ps32ExpressibleByStringInterpolation", "watch2"]
+- !private ["Ps26ExpressibleByStringLiteral", "DispatchFileSystemWatcher"]
+- !private ["Ps26ExpressibleByStringLiteral", "DispatchQueue"]
+- !private ["Ps26ExpressibleByStringLiteral", "_safeRawValue"]
+- !private ["Ps26ExpressibleByStringLiteral", "absolute"]
+- !private ["Ps26ExpressibleByStringLiteral", "exists"]
+- !private ["Ps26ExpressibleByStringLiteral", "isDirectoryFile"]
+- !private ["Ps26ExpressibleByStringLiteral", "isRegular"]
+- !private ["Ps26ExpressibleByStringLiteral", "parent"]
+- !private ["Ps26ExpressibleByStringLiteral", "watch2"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "DispatchFileSystemWatcher"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "DispatchQueue"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "_safeRawValue"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "absolute"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "exists"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "isDirectoryFile"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "isRegular"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "parent"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "watch2"]
+- ["VE8DispatchCSo14DispatchSource15FileSystemEvent", "deinit"]
+- !private ["VE8DispatchCSo14DispatchSource15FileSystemEvent", "init"]
+- !private ["OE8DispatchCSo13DispatchQueue19GlobalQueuePriority", "default"]
+- ["OE8DispatchCSo13DispatchQueue19GlobalQueuePriority", "deinit"]
+- !private ["Ps8Hashable", "DispatchFileSystemWatcher"]
+- !private ["Ps8Hashable", "DispatchQueue"]
+- !private ["Ps8Hashable", "FileSystemEvent"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_safeRawValue"]
+- !private ["Ps8Hashable", "absolute"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "exists"]
+- !private ["Ps8Hashable", "global"]
+- !private ["Ps8Hashable", "isDirectoryFile"]
+- !private ["Ps8Hashable", "isRegular"]
+- !private ["Ps8Hashable", "makeFileSystemObjectSource"]
+- !private ["Ps8Hashable", "parent"]
+- !private ["Ps8Hashable", "watch2"]
+- ["Vs5Int32", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["CSo8NSObject", "FileSystemEvent"]
+- !private ["CSo8NSObject", "global"]
+- !private ["CSo8NSObject", "makeFileSystemObjectSource"]
+- !private ["PSo16NSObjectProtocol", "FileSystemEvent"]
+- !private ["PSo16NSObjectProtocol", "cancel"]
+- !private ["PSo16NSObjectProtocol", "data"]
+- !private ["PSo16NSObjectProtocol", "global"]
+- !private ["PSo16NSObjectProtocol", "makeFileSystemObjectSource"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- !private ["PSo16NSObjectProtocol", "setCancelHandler"]
+- !private ["PSo16NSObjectProtocol", "setEventHandler"]
+- !private ["CSo9OS_object", "FileSystemEvent"]
+- !private ["CSo9OS_object", "global"]
+- !private ["CSo9OS_object", "makeFileSystemObjectSource"]
+- !private ["Ps9OptionSet", "All"]
+- !private ["Ps9OptionSet", "Attribute"]
+- !private ["Ps9OptionSet", "Create"]
+- !private ["Ps9OptionSet", "Delete"]
+- !private ["Ps9OptionSet", "Element"]
+- !private ["Ps9OptionSet", "Extend"]
+- !private ["Ps9OptionSet", "Link"]
+- !private ["Ps9OptionSet", "Rename"]
+- !private ["Ps9OptionSet", "Revoke"]
+- !private ["Ps9OptionSet", "Write"]
+- !private ["Ps9OptionSet", "contains"]
+- !private ["Ps9OptionSet", "init"]
+- !private ["Ps9OptionSet", "rawValue"]
+- !private ["Ps9OptionSet", "remove"]
+- !private ["Sq", "Create"]
+- ["Sq", "deinit"]
+- ["V7FileKit4Path", "DispatchFileSystemEvents"]
+- ["V7FileKit4Path", "DispatchFileSystemWatcher"]
+- ["V7FileKit4Path", "DispatchFileSystemWatcherDelegate"]
+- ["V7FileKit4Path", "DispatchQueue"]
+- ["V7FileKit4Path", "Void"]
+- !private ["V7FileKit4Path", "_safeRawValue"]
+- !private ["V7FileKit4Path", "absolute"]
+- ["V7FileKit4Path", "deinit"]
+- !private ["V7FileKit4Path", "exists"]
+- !private ["V7FileKit4Path", "isDirectoryFile"]
+- !private ["V7FileKit4Path", "isRegular"]
+- !private ["V7FileKit4Path", "parent"]
+- ["V7FileKit4Path", "watch2"]
+- !private ["OV8Dispatch11DispatchQoS8QoSClass", "default"]
+- ["OV8Dispatch11DispatchQoS8QoSClass", "deinit"]
+- !private ["Ps16RawRepresentable", "All"]
+- !private ["Ps16RawRepresentable", "Attribute"]
+- !private ["Ps16RawRepresentable", "Create"]
+- !private ["Ps16RawRepresentable", "Delete"]
+- !private ["Ps16RawRepresentable", "DispatchFileSystemWatcher"]
+- !private ["Ps16RawRepresentable", "DispatchQueue"]
+- !private ["Ps16RawRepresentable", "Element"]
+- !private ["Ps16RawRepresentable", "Extend"]
+- !private ["Ps16RawRepresentable", "Link"]
+- !private ["Ps16RawRepresentable", "Rename"]
+- !private ["Ps16RawRepresentable", "Revoke"]
+- !private ["Ps16RawRepresentable", "Write"]
+- !private ["Ps16RawRepresentable", "_safeRawValue"]
+- !private ["Ps16RawRepresentable", "absolute"]
+- !private ["Ps16RawRepresentable", "contains"]
+- !private ["Ps16RawRepresentable", "exists"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "isDirectoryFile"]
+- !private ["Ps16RawRepresentable", "isRegular"]
+- !private ["Ps16RawRepresentable", "parent"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps16RawRepresentable", "remove"]
+- !private ["Ps16RawRepresentable", "watch2"]
+- !private ["Ps8Sequence", "DispatchFileSystemWatcher"]
+- !private ["Ps8Sequence", "DispatchQueue"]
+- !private ["Ps8Sequence", "_safeRawValue"]
+- !private ["Ps8Sequence", "absolute"]
+- !private ["Ps8Sequence", "exists"]
+- !private ["Ps8Sequence", "isDirectoryFile"]
+- !private ["Ps8Sequence", "isRegular"]
+- !private ["Ps8Sequence", "parent"]
+- !private ["Ps8Sequence", "watch2"]
+- !private ["Ps10SetAlgebra", "All"]
+- !private ["Ps10SetAlgebra", "Attribute"]
+- !private ["Ps10SetAlgebra", "Create"]
+- !private ["Ps10SetAlgebra", "Delete"]
+- !private ["Ps10SetAlgebra", "Element"]
+- !private ["Ps10SetAlgebra", "Extend"]
+- !private ["Ps10SetAlgebra", "Link"]
+- !private ["Ps10SetAlgebra", "Rename"]
+- !private ["Ps10SetAlgebra", "Revoke"]
+- !private ["Ps10SetAlgebra", "Write"]
+- !private ["Ps10SetAlgebra", "contains"]
+- !private ["Ps10SetAlgebra", "init"]
+- !private ["Ps10SetAlgebra", "rawValue"]
+- !private ["Ps10SetAlgebra", "remove"]
+- ["SS", "deinit"]
+- ["Su", "deinit"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "DispatchFileSystemWatcher"]
+- !private ["Ps9_Hashable", "DispatchQueue"]
+- !private ["Ps9_Hashable", "FileSystemEvent"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_safeRawValue"]
+- !private ["Ps9_Hashable", "absolute"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "exists"]
+- !private ["Ps9_Hashable", "global"]
+- !private ["Ps9_Hashable", "isDirectoryFile"]
+- !private ["Ps9_Hashable", "isRegular"]
+- !private ["Ps9_Hashable", "makeFileSystemObjectSource"]
+- !private ["Ps9_Hashable", "parent"]
+- !private ["Ps9_Hashable", "watch2"]
+- !private ["Ps21_ObjectiveCBridgeable", "Create"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "V7FileKit24DispatchFileSystemEvents"
+- "C7FileKit25DispatchFileSystemWatcher"
+- "P7FileKit33DispatchFileSystemWatcherDelegate"
+- !private "CSo14DispatchObject"
+- "CSo13DispatchQueue"
+- !private "CSo14DispatchSource"
+- "PSo30DispatchSourceFileSystemObject"
+- !private "PSo25DispatchSourceMachReceive"
+- !private "PSo22DispatchSourceMachSend"
+- !private "PSo28DispatchSourceMemoryPressure"
+- !private "PSo21DispatchSourceProcess"
+- "PSo22DispatchSourceProtocol"
+- !private "PSo18DispatchSourceRead"
+- !private "PSo20DispatchSourceSignal"
+- !private "PSo19DispatchSourceTimer"
+- !private "PSo25DispatchSourceUserDataAdd"
+- !private "PSo24DispatchSourceUserDataOr"
+- !private "PSo19DispatchSourceWrite"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "VE8DispatchCSo14DispatchSource15FileSystemEvent"
+- "OE8DispatchCSo13DispatchQueue19GlobalQueuePriority"
+- !private "Ps8Hashable"
+- "Vs5Int32"
+- !private "Ps25LosslessStringConvertible"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "CSo9OS_object"
+- !private "Ps9OptionSet"
+- "Sq"
+- "V7FileKit4Path"
+- "OV8Dispatch11DispatchQoS8QoSClass"
+- !private "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- "SS"
+- "Su"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/CYaml.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+interface-hash: "a064adcaff033c9552c137a00ae05bf5"

@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "446f12cd89fb2e95e8e92536727c9bbd"
+build_time: [556864872, 687185000]
+inputs:
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SWXMLHash-3.0.3/Source/SWXMLHash+TypeConversion.swift": [556864821, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SWXMLHash-3.0.3/Source/SWXMLHash.swift": [556864821, 0]

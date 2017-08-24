@@ -1,0 +1,203 @@
+{
+  "": {
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/master.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/Array+File.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Array+File.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Array+File.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Array+File~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Array+File.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/ArrayFile.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/ArrayFile.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/ArrayFile.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/ArrayFile~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/ArrayFile.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/Bundle+FileKit.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Bundle+FileKit.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Bundle+FileKit.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Bundle+FileKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Bundle+FileKit.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/Data+FileKit.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Data+FileKit.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Data+FileKit.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Data+FileKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Data+FileKit.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/DataFile.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DataFile.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DataFile.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DataFile~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DataFile.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/DataType.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DataType.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DataType.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DataType~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DataType.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/Dictionary+File.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Dictionary+File.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Dictionary+File.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Dictionary+File~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Dictionary+File.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/DictionaryFile.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DictionaryFile.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DictionaryFile.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DictionaryFile~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DictionaryFile.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/DirectoryEnumerator.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DirectoryEnumerator.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DirectoryEnumerator.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DirectoryEnumerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DirectoryEnumerator.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/DispatchEvent.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DispatchEvent.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DispatchEvent.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DispatchEvent~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DispatchEvent.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/DispatchWatcher.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DispatchWatcher.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DispatchWatcher.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DispatchWatcher~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/DispatchWatcher.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/File.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/File.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/File.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/File~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/File.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/FileKit.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileKit.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileKit.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileKit.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/FileKitError.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileKitError.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileKitError.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileKitError~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileKitError.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/FilePermissions.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FilePermissions.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FilePermissions.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FilePermissions~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FilePermissions.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/FileProtection.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileProtection.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileProtection.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileProtection~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileProtection.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/FileSystemEvent.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileSystemEvent.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileSystemEvent.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileSystemEvent~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileSystemEvent.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/FileSystemEventStream.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileSystemEventStream.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileSystemEventStream.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileSystemEventStream~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileSystemEventStream.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/FileSystemWatcher.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileSystemWatcher.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileSystemWatcher.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileSystemWatcher~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileSystemWatcher.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/FileType.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileType.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileType.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileType~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/FileType.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/Image+FileKit.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Image+FileKit.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Image+FileKit.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Image+FileKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Image+FileKit.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/ImageFile.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/ImageFile.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/ImageFile.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/ImageFile~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/ImageFile.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/NSArray+FileKit.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/NSArray+FileKit.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/NSArray+FileKit.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/NSArray+FileKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/NSArray+FileKit.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/NSData+FileKit.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/NSData+FileKit.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/NSData+FileKit.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/NSData+FileKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/NSData+FileKit.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/NSDataFile.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/NSDataFile.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/NSDataFile.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/NSDataFile~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/NSDataFile.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/NSDictionary+FileKit.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/NSDictionary+FileKit.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/NSDictionary+FileKit.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/NSDictionary+FileKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/NSDictionary+FileKit.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/NSString+FileKit.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/NSString+FileKit.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/NSString+FileKit.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/NSString+FileKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/NSString+FileKit.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/Operators.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Operators.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Operators.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Operators~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Operators.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/Path.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Path.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Path.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Path~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Path.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/Process+FileKit.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Process+FileKit.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Process+FileKit.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Process+FileKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/Process+FileKit.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/RelativePathType.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/RelativePathType.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/RelativePathType.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/RelativePathType~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/RelativePathType.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/String+FileKit.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/String+FileKit.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/String+FileKit.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/String+FileKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/String+FileKit.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/FileKit-4.0.2/Sources/TextFile.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/TextFile.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/TextFile.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/TextFile~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.build/TextFile.swiftdeps"
+  }
+}

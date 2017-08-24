@@ -1,0 +1,220 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Environment"
+provides-nominal:
+- "V7Stencil11Environment"
+provides-member:
+- ["V7Stencil11Environment", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Loader"
+- !private "??"
+- "Template"
+- "AssignmentPrecedence"
+- "String"
+- !private "+"
+- !private "TemplateDoesNotExist"
+- "Extension"
+- !private "Array"
+- "Environment"
+- !private "DefaultExtension"
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "render"]
+- !private ["Sa", "Element"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "Stride"]
+- !private ["Sa", "_DisallowMixedSignArithmetic"]
+- !private ["Sa", "_Element"]
+- ["Sa", "deinit"]
+- !private ["Ps23BidirectionalCollection", "Element"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "Stride"]
+- !private ["Ps23BidirectionalCollection", "_DisallowMixedSignArithmetic"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "Element"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "Stride"]
+- !private ["Ps22BidirectionalIndexable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "_DisallowMixedSignArithmetic"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps10Collection", "Element"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "Stride"]
+- !private ["Ps10Collection", "_DisallowMixedSignArithmetic"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "Stride"]
+- !private ["Ps28CustomDebugStringConvertible", "_DisallowMixedSignArithmetic"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "_DisallowMixedSignArithmetic"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["C7Stencil16DefaultExtension", "deinit"]
+- !private ["C7Stencil16DefaultExtension", "init"]
+- !private ["V7Stencil11Environment", "DefaultExtension"]
+- ["V7Stencil11Environment", "Extension"]
+- ["V7Stencil11Environment", "Loader"]
+- ["V7Stencil11Environment", "String"]
+- ["V7Stencil11Environment", "Template"]
+- !private ["V7Stencil11Environment", "TemplateDoesNotExist"]
+- ["V7Stencil11Environment", "deinit"]
+- ["V7Stencil11Environment", "extensions"]
+- ["V7Stencil11Environment", "init"]
+- ["V7Stencil11Environment", "loadTemplate"]
+- ["V7Stencil11Environment", "loader"]
+- ["V7Stencil11Environment", "renderTemplate"]
+- ["V7Stencil11Environment", "templateClass"]
+- !private ["Ps5Error", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Stride"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_DisallowMixedSignArithmetic"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "render"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "render"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "render"]
+- !private ["C7Stencil9Extension", "init"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "Stride"]
+- !private ["Ps9Indexable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps13IndexableBase", "Element"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "Stride"]
+- !private ["Ps13IndexableBase", "_DisallowMixedSignArithmetic"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- ["P7Stencil6Loader", "deinit"]
+- !private ["P7Stencil6Loader", "loadTemplate"]
+- !private ["Ps17MutableCollection", "Element"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "Stride"]
+- !private ["Ps17MutableCollection", "_DisallowMixedSignArithmetic"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "Stride"]
+- !private ["Ps16MutableIndexable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["P7Stencil12Normalizable", "Element"]
+- !private ["P7Stencil12Normalizable", "Iterator"]
+- !private ["P7Stencil12Normalizable", "Stride"]
+- !private ["P7Stencil12Normalizable", "_DisallowMixedSignArithmetic"]
+- !private ["P7Stencil12Normalizable", "_Element"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Element"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "Stride"]
+- !private ["Ps22RandomAccessCollection", "_DisallowMixedSignArithmetic"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "Stride"]
+- !private ["Ps21RandomAccessIndexable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "Element"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "Stride"]
+- !private ["Ps26RangeReplaceableCollection", "_DisallowMixedSignArithmetic"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "Stride"]
+- !private ["Ps25RangeReplaceableIndexable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "Stride"]
+- !private ["Ps8Sequence", "_DisallowMixedSignArithmetic"]
+- !private ["Ps8Sequence", "_Element"]
+- ["SS", "deinit"]
+- ["C7Stencil8Template", "deinit"]
+- !private ["C7Stencil8Template", "init"]
+- !private ["C7Stencil8Template", "render"]
+- ["C7Stencil20TemplateDoesNotExist", "deinit"]
+- !private ["C7Stencil20TemplateDoesNotExist", "init"]
+- !private ["Ps14_ArrayProtocol", "Element"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "Stride"]
+- !private ["Ps14_ArrayProtocol", "_DisallowMixedSignArithmetic"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "Stride"]
+- !private ["Ps24_DestructorSafeContainer", "_DisallowMixedSignArithmetic"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "C7Stencil16DefaultExtension"
+- "V7Stencil11Environment"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "C7Stencil9Extension"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Ps16IteratorProtocol"
+- "P7Stencil6Loader"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "P7Stencil12Normalizable"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps8Sequence"
+- "SS"
+- "C7Stencil8Template"
+- "C7Stencil20TemplateDoesNotExist"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/PathKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/CYaml.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+interface-hash: "0abcf0fd06d4df93e905b40f08cafe74"

@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "140de4e098931cdef3bce84b76bdd96e"
+build_time: [556864872, 805034000]
+inputs:
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Result-3.2.3/Result/Result.swift": [556864813, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Result-3.2.3/Result/ResultProtocol.swift": [556864813, 0]

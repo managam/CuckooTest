@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "457d29e47d7421fcc787f995ea754fcc"
+build_time: [556864872, 822051000]
+inputs:
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Spectre-0.7.2/Sources/Case.swift": [556864866, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Spectre-0.7.2/Sources/Context.swift": [556864866, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Spectre-0.7.2/Sources/Expectation.swift": [556864866, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Spectre-0.7.2/Sources/Failure.swift": [556864866, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Spectre-0.7.2/Sources/Global.swift": [556864866, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Spectre-0.7.2/Sources/GlobalContext.swift": [556864866, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Spectre-0.7.2/Sources/Reporter.swift": [556864866, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Spectre-0.7.2/Sources/Reporters.swift": [556864866, 0]

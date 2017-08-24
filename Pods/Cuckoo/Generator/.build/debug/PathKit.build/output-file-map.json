@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/PathKit.build/master.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/PathKit-0.8.0/Sources/PathKit.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/PathKit.build/PathKit.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/PathKit.build/PathKit.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/PathKit.build/PathKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/PathKit.build/PathKit.swiftdeps"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Result.build/master.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Result-3.2.3/Result/Result.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Result.build/Result.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Result.build/Result.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Result.build/Result~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Result.build/Result.swiftdeps"
+  },
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Result-3.2.3/Result/ResultProtocol.swift": {
+    "dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Result.build/ResultProtocol.d",
+    "object": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Result.build/ResultProtocol.swift.o",
+    "swiftmodule": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Result.build/ResultProtocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Result.build/ResultProtocol.swiftdeps"
+  }
+}

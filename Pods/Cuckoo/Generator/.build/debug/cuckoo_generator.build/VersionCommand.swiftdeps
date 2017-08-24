@@ -1,0 +1,366 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "VersionCommand"
+provides-nominal:
+- "V16cuckoo_generator14VersionCommand"
+- "VV16cuckoo_generator14VersionCommand7Options"
+provides-member:
+- ["V16cuckoo_generator14VersionCommand", ""]
+- ["VV16cuckoo_generator14VersionCommand7Options", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CommandantError"
+- "CommandProtocol"
+- "Bundle"
+- "=="
+- "String"
+- "CastingPrecedence"
+- "OptionsProtocol"
+- !private "print"
+- "Result"
+- "CuckooGeneratorError"
+- "CommandMode"
+- "??"
+- "VersionCommand"
+- "Void"
+- "StringLiteralType"
+depends-member:
+- ["Ps9AnyObject", "allFrameworks"]
+- ["Ps9AnyObject", "bundleIdentifier"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "object"]
+- ["P10Commandant16ArgumentProtocol", "init"]
+- ["Sa", "Iterator"]
+- ["Sa", "_Element"]
+- ["Sa", "deinit"]
+- ["Sa", "filter"]
+- ["Sa", "first"]
+- ["Ps23BidirectionalCollection", "Iterator"]
+- ["Ps23BidirectionalCollection", "_Element"]
+- ["Ps23BidirectionalCollection", "filter"]
+- ["Ps23BidirectionalCollection", "first"]
+- ["Ps22BidirectionalIndexable", "Iterator"]
+- ["Ps22BidirectionalIndexable", "_Element"]
+- ["Ps22BidirectionalIndexable", "filter"]
+- ["Ps22BidirectionalIndexable", "first"]
+- ["Sb", "deinit"]
+- ["CSo6Bundle", "allFrameworks"]
+- ["CSo6Bundle", "bundleIdentifier"]
+- ["CSo6Bundle", "deinit"]
+- ["CSo6Bundle", "object"]
+- ["Ps7CVarArg", "Iterator"]
+- ["Ps7CVarArg", "_Element"]
+- ["Ps7CVarArg", "allFrameworks"]
+- ["Ps7CVarArg", "bundleIdentifier"]
+- ["Ps7CVarArg", "filter"]
+- ["Ps7CVarArg", "first"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "object"]
+- ["Ps10Collection", "Iterator"]
+- ["Ps10Collection", "_Element"]
+- ["Ps10Collection", "filter"]
+- ["Ps10Collection", "first"]
+- ["P10Commandant15CommandProtocol", "Bundle"]
+- ["P10Commandant15CommandProtocol", "ClientError"]
+- ["P10Commandant15CommandProtocol", "Options"]
+- !private ["P10Commandant15CommandProtocol", "VersionCommand"]
+- !private ["P10Commandant15CommandProtocol", "appVersion"]
+- ["P10Commandant15CommandProtocol", "function"]
+- !private ["P10Commandant15CommandProtocol", "print"]
+- ["P10Commandant15CommandProtocol", "run"]
+- ["P10Commandant15CommandProtocol", "verb"]
+- ["P10Commandant15CommandProtocol", ""]
+- ["Ps10Comparable", "init"]
+- ["O16cuckoo_generator20CuckooGeneratorError", "deinit"]
+- ["Ps28CustomDebugStringConvertible", "Iterator"]
+- ["Ps28CustomDebugStringConvertible", "_Element"]
+- ["Ps28CustomDebugStringConvertible", "allFrameworks"]
+- ["Ps28CustomDebugStringConvertible", "bundleIdentifier"]
+- ["Ps28CustomDebugStringConvertible", "filter"]
+- ["Ps28CustomDebugStringConvertible", "first"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "object"]
+- !private ["Ps28CustomDebugStringConvertible", "success"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "Iterator"]
+- ["Ps17CustomReflectable", "_Element"]
+- ["Ps17CustomReflectable", "filter"]
+- ["Ps17CustomReflectable", "first"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "Iterator"]
+- ["Ps23CustomStringConvertible", "_Element"]
+- ["Ps23CustomStringConvertible", "allFrameworks"]
+- ["Ps23CustomStringConvertible", "bundleIdentifier"]
+- ["Ps23CustomStringConvertible", "filter"]
+- ["Ps23CustomStringConvertible", "first"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "object"]
+- !private ["Ps23CustomStringConvertible", "success"]
+- ["Ps9Equatable", "allFrameworks"]
+- ["Ps9Equatable", "bundleIdentifier"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "object"]
+- ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- ["Ps25ExpressibleByArrayLiteral", "filter"]
+- ["Ps25ExpressibleByArrayLiteral", "first"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "allFrameworks"]
+- ["Ps8Hashable", "bundleIdentifier"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "object"]
+- ["Ps9Indexable", "Iterator"]
+- ["Ps9Indexable", "_Element"]
+- ["Ps9Indexable", "filter"]
+- ["Ps9Indexable", "first"]
+- ["Ps13IndexableBase", "Iterator"]
+- ["Ps13IndexableBase", "_Element"]
+- ["Ps13IndexableBase", "filter"]
+- ["Ps13IndexableBase", "first"]
+- ["Vs16IndexingIterator", "Element"]
+- ["Ps16IteratorProtocol", "Element"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["Ps17MutableCollection", "Iterator"]
+- ["Ps17MutableCollection", "_Element"]
+- ["Ps17MutableCollection", "filter"]
+- ["Ps17MutableCollection", "first"]
+- ["Ps16MutableIndexable", "Iterator"]
+- ["Ps16MutableIndexable", "_Element"]
+- ["Ps16MutableIndexable", "filter"]
+- ["Ps16MutableIndexable", "first"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "allFrameworks"]
+- ["CSo8NSObject", "bundleIdentifier"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "object"]
+- ["PSo16NSObjectProtocol", "allFrameworks"]
+- ["PSo16NSObjectProtocol", "bundleIdentifier"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "object"]
+- ["PSo19NSPasteboardReading", "init"]
+- ["PSo19NSPasteboardWriting", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["P7Stencil12Normalizable", "Iterator"]
+- ["P7Stencil12Normalizable", "_Element"]
+- ["P7Stencil12Normalizable", "filter"]
+- ["P7Stencil12Normalizable", "first"]
+- ["Sq", "deinit"]
+- ["VV16cuckoo_generator14VersionCommand7Options", "ClientError"]
+- ["VV16cuckoo_generator14VersionCommand7Options", "CommandMode"]
+- ["VV16cuckoo_generator14VersionCommand7Options", "CommandantError"]
+- ["VV16cuckoo_generator14VersionCommand7Options", "CuckooGeneratorError"]
+- ["VV16cuckoo_generator14VersionCommand7Options", "Options"]
+- ["VV16cuckoo_generator14VersionCommand7Options", "Result"]
+- ["VV16cuckoo_generator14VersionCommand7Options", "deinit"]
+- ["VV16cuckoo_generator14VersionCommand7Options", "evaluate"]
+- ["VV16cuckoo_generator14VersionCommand7Options", "init"]
+- ["P10Commandant15OptionsProtocol", "ClientError"]
+- !private ["P10Commandant15OptionsProtocol", "Options"]
+- ["P10Commandant15OptionsProtocol", "evaluate"]
+- !private ["P10Commandant15OptionsProtocol", "init"]
+- ["P10Commandant15OptionsProtocol", ""]
+- ["Ps22RandomAccessCollection", "Iterator"]
+- ["Ps22RandomAccessCollection", "_Element"]
+- ["Ps22RandomAccessCollection", "filter"]
+- ["Ps22RandomAccessCollection", "first"]
+- ["Ps21RandomAccessIndexable", "Iterator"]
+- ["Ps21RandomAccessIndexable", "_Element"]
+- ["Ps21RandomAccessIndexable", "filter"]
+- ["Ps21RandomAccessIndexable", "first"]
+- ["Ps26RangeReplaceableCollection", "Iterator"]
+- ["Ps26RangeReplaceableCollection", "_Element"]
+- ["Ps26RangeReplaceableCollection", "filter"]
+- ["Ps26RangeReplaceableCollection", "first"]
+- ["Ps25RangeReplaceableIndexable", "Iterator"]
+- ["Ps25RangeReplaceableIndexable", "_Element"]
+- ["Ps25RangeReplaceableIndexable", "filter"]
+- ["Ps25RangeReplaceableIndexable", "first"]
+- ["P7FileKit8Readable", "Iterator"]
+- ["P7FileKit8Readable", "_Element"]
+- ["P7FileKit8Readable", "filter"]
+- ["P7FileKit8Readable", "first"]
+- ["P7FileKit8Readable", "init"]
+- ["O6Result6Result", "deinit"]
+- !private ["O6Result6Result", "success"]
+- !private ["P6Result14ResultProtocol", "success"]
+- ["Ps8Sequence", "Element"]
+- ["Ps8Sequence", "Iterator"]
+- ["Ps8Sequence", "_Element"]
+- ["Ps8Sequence", "filter"]
+- ["Ps8Sequence", "first"]
+- ["P21SourceKittenFramework22SourceKitRepresentable", "Iterator"]
+- ["P21SourceKittenFramework22SourceKitRepresentable", "_Element"]
+- ["P21SourceKittenFramework22SourceKitRepresentable", "filter"]
+- ["P21SourceKittenFramework22SourceKitRepresentable", "first"]
+- ["P21SourceKittenFramework22SourceKitRepresentable", "init"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["V16cuckoo_generator14VersionCommand", "Bundle"]
+- ["V16cuckoo_generator14VersionCommand", "ClientError"]
+- ["V16cuckoo_generator14VersionCommand", "CommandMode"]
+- ["V16cuckoo_generator14VersionCommand", "CommandantError"]
+- ["V16cuckoo_generator14VersionCommand", "CuckooGeneratorError"]
+- ["V16cuckoo_generator14VersionCommand", "Options"]
+- ["V16cuckoo_generator14VersionCommand", "OptionsProtocol"]
+- ["V16cuckoo_generator14VersionCommand", "Result"]
+- ["V16cuckoo_generator14VersionCommand", "String"]
+- !private ["V16cuckoo_generator14VersionCommand", "VersionCommand"]
+- ["V16cuckoo_generator14VersionCommand", "Void"]
+- ["V16cuckoo_generator14VersionCommand", "appVersion"]
+- ["V16cuckoo_generator14VersionCommand", "deinit"]
+- ["V16cuckoo_generator14VersionCommand", "function"]
+- ["V16cuckoo_generator14VersionCommand", "init"]
+- !private ["V16cuckoo_generator14VersionCommand", "print"]
+- ["V16cuckoo_generator14VersionCommand", "run"]
+- ["V16cuckoo_generator14VersionCommand", "verb"]
+- ["P7FileKit8Writable", "Iterator"]
+- ["P7FileKit8Writable", "_Element"]
+- ["P7FileKit8Writable", "filter"]
+- ["P7FileKit8Writable", "first"]
+- ["P7FileKit8Writable", "init"]
+- ["P7FileKit19WritableConvertible", "Iterator"]
+- ["P7FileKit19WritableConvertible", "_Element"]
+- ["P7FileKit19WritableConvertible", "filter"]
+- ["P7FileKit19WritableConvertible", "first"]
+- ["P9SWXMLHash26XMLAttributeDeserializable", "init"]
+- ["P9SWXMLHash24XMLElementDeserializable", "init"]
+- ["Ps14_ArrayProtocol", "Iterator"]
+- ["Ps14_ArrayProtocol", "_Element"]
+- ["Ps14_ArrayProtocol", "filter"]
+- ["Ps14_ArrayProtocol", "first"]
+- ["Ps24_DestructorSafeContainer", "Iterator"]
+- ["Ps24_DestructorSafeContainer", "_Element"]
+- ["Ps24_DestructorSafeContainer", "filter"]
+- ["Ps24_DestructorSafeContainer", "first"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "allFrameworks"]
+- ["Ps9_Hashable", "bundleIdentifier"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "object"]
+- ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- ["Ps21_ObjectiveCBridgeable", "_Element"]
+- ["Ps21_ObjectiveCBridgeable", "filter"]
+- ["Ps21_ObjectiveCBridgeable", "first"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- "P10Commandant16ArgumentProtocol"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- "Ps22BidirectionalIndexable"
+- "Sb"
+- "CSo6Bundle"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "P10Commandant15CommandProtocol"
+- "Ps10Comparable"
+- "O16cuckoo_generator20CuckooGeneratorError"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- "Vs16IndexingIterator"
+- "Ps16IteratorProtocol"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- "Ps16MutableIndexable"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo19NSPasteboardReading"
+- "PSo19NSPasteboardWriting"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "P7Stencil12Normalizable"
+- "Sq"
+- "VV16cuckoo_generator14VersionCommand7Options"
+- "P10Commandant15OptionsProtocol"
+- "Ps22RandomAccessCollection"
+- "Ps21RandomAccessIndexable"
+- "Ps26RangeReplaceableCollection"
+- "Ps25RangeReplaceableIndexable"
+- "P7FileKit8Readable"
+- "O6Result6Result"
+- !private "P6Result14ResultProtocol"
+- "Ps8Sequence"
+- "P21SourceKittenFramework22SourceKitRepresentable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "V16cuckoo_generator14VersionCommand"
+- "P7FileKit8Writable"
+- "P7FileKit19WritableConvertible"
+- "P9SWXMLHash26XMLAttributeDeserializable"
+- "P9SWXMLHash24XMLElementDeserializable"
+- "Ps14_ArrayProtocol"
+- "Ps24_DestructorSafeContainer"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+- "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/CYaml.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Commandant.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Result.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/SourceKittenFramework.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/CXCompilationDatabase.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/BuildSystem.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/CXString.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/CXErrorCode.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/Platform.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/Index.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/Documentation.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKit-1.0.1/module.modulemap"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/module.modulemap"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/SWXMLHash.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Yams.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Yams-0.1.4/Sources/CYaml/include/yaml.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/CuckooGeneratorFramework.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Stencil.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/PathKit.swiftmodule"
+interface-hash: "3e5d719f423aea0e7adff8d25d274d20"

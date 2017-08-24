@@ -1,0 +1,14 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "721759ec49b70dd53524ffda76355240"
+build_time: [556864891, 610221000]
+inputs:
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKitten-0.16.0/Source/sourcekitten/CompleteCommand.swift": [556864759, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKitten-0.16.0/Source/sourcekitten/DocCommand.swift": [556864759, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKitten-0.16.0/Source/sourcekitten/Errors.swift": [556864684, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKitten-0.16.0/Source/sourcekitten/FormatCommand.swift": [556864759, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKitten-0.16.0/Source/sourcekitten/IndexCommand.swift": [556864759, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKitten-0.16.0/Source/sourcekitten/main.swift": [556864759, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKitten-0.16.0/Source/sourcekitten/StructureCommand.swift": [556864759, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKitten-0.16.0/Source/sourcekitten/SyntaxCommand.swift": [556864759, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKitten-0.16.0/Source/sourcekitten/VersionCommand.swift": [556864759, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKitten-0.16.0/Source/sourcekitten/YamlRequestCommand.swift": [556864759, 0]

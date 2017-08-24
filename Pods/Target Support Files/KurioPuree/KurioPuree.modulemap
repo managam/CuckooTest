@@ -1,0 +1,6 @@
+framework module KurioPuree {
+  umbrella header "KurioPuree-umbrella.h"
+
+  export *
+  module * { export * }
+}

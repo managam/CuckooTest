@@ -1,0 +1,292 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FileType"
+provides-nominal:
+- "O7FileKit8FileType"
+provides-member:
+- ["O7FileKit8FileType", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "FileAttributeType"
+- "String"
+- !private "~="
+- "=="
+- "AssignmentPrecedence"
+- "FileType"
+- "StringLiteralType"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "rawValue"]
+- ["Ps10Comparable", "typeBlockSpecial"]
+- ["Ps10Comparable", "typeCharacterSpecial"]
+- ["Ps10Comparable", "typeDirectory"]
+- ["Ps10Comparable", "typeRegular"]
+- ["Ps10Comparable", "typeSocket"]
+- ["Ps10Comparable", "typeSymbolicLink"]
+- ["Ps10Comparable", "typeUnknown"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "FileAttributeType"]
+- ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "blockSpecial"]
+- ["Ps9Equatable", "characterSpecial"]
+- ["Ps9Equatable", "directory"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", "regular"]
+- ["Ps9Equatable", "socket"]
+- ["Ps9Equatable", "symbolicLink"]
+- ["Ps9Equatable", "typeBlockSpecial"]
+- ["Ps9Equatable", "typeCharacterSpecial"]
+- ["Ps9Equatable", "typeDirectory"]
+- ["Ps9Equatable", "typeRegular"]
+- ["Ps9Equatable", "typeSocket"]
+- ["Ps9Equatable", "typeSymbolicLink"]
+- ["Ps9Equatable", "typeUnknown"]
+- ["Ps9Equatable", "unknown"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["VSC17FileAttributeType", "deinit"]
+- !private ["VSC17FileAttributeType", "rawValue"]
+- ["VSC17FileAttributeType", "typeBlockSpecial"]
+- ["VSC17FileAttributeType", "typeCharacterSpecial"]
+- ["VSC17FileAttributeType", "typeDirectory"]
+- ["VSC17FileAttributeType", "typeRegular"]
+- ["VSC17FileAttributeType", "typeSocket"]
+- ["VSC17FileAttributeType", "typeSymbolicLink"]
+- ["VSC17FileAttributeType", "typeUnknown"]
+- !private ["O7FileKit8FileType", "FileAttributeType"]
+- ["O7FileKit8FileType", "RawValue"]
+- ["O7FileKit8FileType", "String"]
+- ["O7FileKit8FileType", "_toAnyHashable"]
+- ["O7FileKit8FileType", "blockSpecial"]
+- ["O7FileKit8FileType", "characterSpecial"]
+- ["O7FileKit8FileType", "deinit"]
+- ["O7FileKit8FileType", "directory"]
+- ["O7FileKit8FileType", "hashValue"]
+- ["O7FileKit8FileType", "init"]
+- ["O7FileKit8FileType", "rawValue"]
+- ["O7FileKit8FileType", "regular"]
+- ["O7FileKit8FileType", "socket"]
+- ["O7FileKit8FileType", "symbolicLink"]
+- ["O7FileKit8FileType", "unknown"]
+- !private ["Ps8Hashable", "FileAttributeType"]
+- ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "blockSpecial"]
+- ["Ps8Hashable", "characterSpecial"]
+- ["Ps8Hashable", "directory"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", "regular"]
+- ["Ps8Hashable", "socket"]
+- ["Ps8Hashable", "symbolicLink"]
+- ["Ps8Hashable", "typeBlockSpecial"]
+- ["Ps8Hashable", "typeCharacterSpecial"]
+- ["Ps8Hashable", "typeDirectory"]
+- ["Ps8Hashable", "typeRegular"]
+- ["Ps8Hashable", "typeSocket"]
+- ["Ps8Hashable", "typeSymbolicLink"]
+- ["Ps8Hashable", "typeUnknown"]
+- ["Ps8Hashable", "unknown"]
+- ["Ps8Hashable", ""]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo19NSPasteboardReading", "init"]
+- ["PSo19NSPasteboardWriting", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- !private ["Ps16RawRepresentable", "FileAttributeType"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- ["Ps16RawRepresentable", "blockSpecial"]
+- ["Ps16RawRepresentable", "characterSpecial"]
+- ["Ps16RawRepresentable", "directory"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", "regular"]
+- ["Ps16RawRepresentable", "socket"]
+- ["Ps16RawRepresentable", "symbolicLink"]
+- ["Ps16RawRepresentable", "typeBlockSpecial"]
+- ["Ps16RawRepresentable", "typeCharacterSpecial"]
+- ["Ps16RawRepresentable", "typeDirectory"]
+- ["Ps16RawRepresentable", "typeRegular"]
+- ["Ps16RawRepresentable", "typeSocket"]
+- ["Ps16RawRepresentable", "typeSymbolicLink"]
+- ["Ps16RawRepresentable", "typeUnknown"]
+- ["Ps16RawRepresentable", "unknown"]
+- ["Ps16RawRepresentable", ""]
+- ["P7FileKit8Readable", "init"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["P7FileKit8Writable", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "FileAttributeType"]
+- ["Ps9_Hashable", "RawValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "blockSpecial"]
+- ["Ps9_Hashable", "characterSpecial"]
+- ["Ps9_Hashable", "directory"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "rawValue"]
+- ["Ps9_Hashable", "regular"]
+- ["Ps9_Hashable", "socket"]
+- ["Ps9_Hashable", "symbolicLink"]
+- ["Ps9_Hashable", "typeBlockSpecial"]
+- ["Ps9_Hashable", "typeCharacterSpecial"]
+- ["Ps9_Hashable", "typeDirectory"]
+- ["Ps9_Hashable", "typeRegular"]
+- ["Ps9_Hashable", "typeSocket"]
+- ["Ps9_Hashable", "typeSymbolicLink"]
+- ["Ps9_Hashable", "typeUnknown"]
+- ["Ps9_Hashable", "unknown"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "rawValue"]
+- ["Ps21_ObjectiveCBridgeable", "typeBlockSpecial"]
+- ["Ps21_ObjectiveCBridgeable", "typeCharacterSpecial"]
+- ["Ps21_ObjectiveCBridgeable", "typeDirectory"]
+- ["Ps21_ObjectiveCBridgeable", "typeRegular"]
+- ["Ps21_ObjectiveCBridgeable", "typeSocket"]
+- ["Ps21_ObjectiveCBridgeable", "typeSymbolicLink"]
+- ["Ps21_ObjectiveCBridgeable", "typeUnknown"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+- !private ["Ps20_SwiftNewtypeWrapper", "rawValue"]
+- ["Ps20_SwiftNewtypeWrapper", "typeBlockSpecial"]
+- ["Ps20_SwiftNewtypeWrapper", "typeCharacterSpecial"]
+- ["Ps20_SwiftNewtypeWrapper", "typeDirectory"]
+- ["Ps20_SwiftNewtypeWrapper", "typeRegular"]
+- ["Ps20_SwiftNewtypeWrapper", "typeSocket"]
+- ["Ps20_SwiftNewtypeWrapper", "typeSymbolicLink"]
+- ["Ps20_SwiftNewtypeWrapper", "typeUnknown"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "VSC17FileAttributeType"
+- "O7FileKit8FileType"
+- "Ps8Hashable"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo19NSPasteboardReading"
+- "PSo19NSPasteboardWriting"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Ps16RawRepresentable"
+- "P7FileKit8Readable"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "P7FileKit8Writable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/CYaml.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+interface-hash: "ba4aecf61fd2fef49404443c8877e001"

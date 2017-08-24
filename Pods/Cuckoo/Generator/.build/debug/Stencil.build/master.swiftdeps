@@ -1,0 +1,23 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "f2c07ed79d70b4260b83fddb4b22082d"
+build_time: [556864881, 614992000]
+inputs:
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Stencil-0.8.0/Sources/Context.swift": [556864857, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Stencil-0.8.0/Sources/Environment.swift": [556864857, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Stencil-0.8.0/Sources/Errors.swift": [556864851, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Stencil-0.8.0/Sources/Expression.swift": [556864851, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Stencil-0.8.0/Sources/Extension.swift": [556864851, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Stencil-0.8.0/Sources/Filters.swift": [556864851, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Stencil-0.8.0/Sources/FilterTag.swift": [556864851, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Stencil-0.8.0/Sources/ForTag.swift": [556864857, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Stencil-0.8.0/Sources/IfTag.swift": [556864857, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Stencil-0.8.0/Sources/Include.swift": [556864851, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Stencil-0.8.0/Sources/Inheritence.swift": [556864851, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Stencil-0.8.0/Sources/Lexer.swift": [556864857, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Stencil-0.8.0/Sources/Loader.swift": [556864857, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Stencil-0.8.0/Sources/Node.swift": [556864851, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Stencil-0.8.0/Sources/NowTag.swift": [556864851, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Stencil-0.8.0/Sources/Parser.swift": [556864851, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Stencil-0.8.0/Sources/Template.swift": [556864851, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Stencil-0.8.0/Sources/Tokenizer.swift": [556864857, 0]
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Stencil-0.8.0/Sources/Variable.swift": [556864851, 0]

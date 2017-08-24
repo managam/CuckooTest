@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "7dc24e8e94da100b105a13f4a26c7cff"
+build_time: [556864895, 305421000]
+inputs:
+  "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Source/TemplateEncoder/main.swift": [556864539, 0]

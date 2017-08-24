@@ -1,0 +1,149 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DirectoryEnumerator"
+provides-nominal:
+- "V7FileKit19DirectoryEnumerator"
+provides-member:
+- ["V7FileKit19DirectoryEnumerator", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Path"
+- "IteratorProtocol"
+- "FileManager"
+- !private "String"
+- !private "+"
+- "CastingPrecedence"
+- "AssignmentPrecedence"
+- "DirectoryEnumerator"
+depends-member:
+- ["Ps9AnyObject", "DirectoryEnumerator"]
+- !private ["Ps9AnyObject", "enumerator"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "nextObject"]
+- !private ["Ps9AnyObject", "skipDescendants"]
+- ["Ps7CVarArg", "DirectoryEnumerator"]
+- !private ["Ps7CVarArg", "enumerator"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "nextObject"]
+- !private ["Ps7CVarArg", "skipDescendants"]
+- ["Ps28CustomDebugStringConvertible", "DirectoryEnumerator"]
+- !private ["Ps28CustomDebugStringConvertible", "_safeRawValue"]
+- !private ["Ps28CustomDebugStringConvertible", "enumerator"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "nextObject"]
+- !private ["Ps28CustomDebugStringConvertible", "skipDescendants"]
+- ["Ps23CustomStringConvertible", "DirectoryEnumerator"]
+- !private ["Ps23CustomStringConvertible", "_safeRawValue"]
+- !private ["Ps23CustomStringConvertible", "enumerator"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "nextObject"]
+- !private ["Ps23CustomStringConvertible", "skipDescendants"]
+- ["CSo19DirectoryEnumerator", "deinit"]
+- !private ["CSo19DirectoryEnumerator", "nextObject"]
+- !private ["CSo19DirectoryEnumerator", "skipDescendants"]
+- ["V7FileKit19DirectoryEnumerator", "Element"]
+- ["V7FileKit19DirectoryEnumerator", "FileManager"]
+- ["V7FileKit19DirectoryEnumerator", "Path"]
+- !private ["V7FileKit19DirectoryEnumerator", "String"]
+- !private ["V7FileKit19DirectoryEnumerator", "_enumerator"]
+- !private ["V7FileKit19DirectoryEnumerator", "_path"]
+- ["V7FileKit19DirectoryEnumerator", "deinit"]
+- ["V7FileKit19DirectoryEnumerator", "init"]
+- ["V7FileKit19DirectoryEnumerator", "next"]
+- ["V7FileKit19DirectoryEnumerator", "skipDescendants"]
+- ["Ps9Equatable", "DirectoryEnumerator"]
+- !private ["Ps9Equatable", "_safeRawValue"]
+- !private ["Ps9Equatable", "enumerator"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "nextObject"]
+- !private ["Ps9Equatable", "skipDescendants"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "_safeRawValue"]
+- !private ["Ps32ExpressibleByStringInterpolation", "_safeRawValue"]
+- !private ["Ps26ExpressibleByStringLiteral", "_safeRawValue"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "_safeRawValue"]
+- ["CSo11FileManager", "DirectoryEnumerator"]
+- ["CSo11FileManager", "deinit"]
+- !private ["CSo11FileManager", "enumerator"]
+- !private ["CSo11FileManager", "init"]
+- ["Ps8Hashable", "DirectoryEnumerator"]
+- !private ["Ps8Hashable", "_safeRawValue"]
+- !private ["Ps8Hashable", "enumerator"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "nextObject"]
+- !private ["Ps8Hashable", "skipDescendants"]
+- ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps16IteratorProtocol", "FileManager"]
+- !private ["Ps16IteratorProtocol", "_enumerator"]
+- !private ["Ps16IteratorProtocol", "_path"]
+- ["Ps16IteratorProtocol", "next"]
+- ["Ps16IteratorProtocol", ""]
+- !private ["CSo12NSEnumerator", "nextObject"]
+- !private ["CSo12NSEnumerator", "skipDescendants"]
+- !private ["PSo17NSFastEnumeration", "nextObject"]
+- !private ["PSo17NSFastEnumeration", "skipDescendants"]
+- ["CSo8NSObject", "DirectoryEnumerator"]
+- !private ["CSo8NSObject", "enumerator"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "nextObject"]
+- !private ["CSo8NSObject", "skipDescendants"]
+- ["PSo16NSObjectProtocol", "DirectoryEnumerator"]
+- !private ["PSo16NSObjectProtocol", "enumerator"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "nextObject"]
+- !private ["PSo16NSObjectProtocol", "skipDescendants"]
+- ["Sq", "deinit"]
+- !private ["V7FileKit4Path", "_safeRawValue"]
+- ["V7FileKit4Path", "deinit"]
+- !private ["Ps16RawRepresentable", "_safeRawValue"]
+- !private ["Ps8Sequence", "_safeRawValue"]
+- !private ["Ps8Sequence", "nextObject"]
+- !private ["Ps8Sequence", "skipDescendants"]
+- ["SS", "deinit"]
+- ["Ps9_Hashable", "DirectoryEnumerator"]
+- !private ["Ps9_Hashable", "_safeRawValue"]
+- !private ["Ps9_Hashable", "enumerator"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "nextObject"]
+- !private ["Ps9_Hashable", "skipDescendants"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "CSo19DirectoryEnumerator"
+- "V7FileKit19DirectoryEnumerator"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "CSo11FileManager"
+- "Ps8Hashable"
+- "Ps16IteratorProtocol"
+- !private "CSo12NSEnumerator"
+- !private "PSo17NSFastEnumeration"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "V7FileKit4Path"
+- !private "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- "SS"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/CYaml.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+interface-hash: "f687b6e985cbcf8544b2d1666558ecac"

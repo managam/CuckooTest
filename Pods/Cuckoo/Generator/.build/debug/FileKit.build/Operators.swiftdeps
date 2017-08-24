@@ -1,0 +1,781 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "=="
+- "<"
+- "|>"
+- "|>"
+- "=="
+- "|>>"
+- "|>>"
+- "|"
+- "|-"
+- "|-"
+- "|~"
+- "|~"
+- "=="
+- "!="
+- "+"
+- "+"
+- "+"
+- "+="
+- "+="
+- "/"
+- "/"
+- "/"
+- "/="
+- "/="
+- "FileCommonAncestorPrecedence"
+- "<^>"
+- "<^>"
+- "</>"
+- "</>"
+- "->>"
+- "->>"
+- "->>"
+- "->!"
+- "->!"
+- "->!"
+- "+>>"
+- "+>>"
+- "+>>"
+- "+>!"
+- "+>!"
+- "+>!"
+- "=>>"
+- "=>>"
+- "=>>"
+- "=>!"
+- "=>!"
+- "=>!"
+- "%"
+- "%"
+- "*"
+- "*"
+- "^"
+- "^"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- !private "StringLiteralType"
+- "|>"
+- "+>>"
+- !private "NSString"
+- "File"
+- !private "!"
+- "+="
+- "|-"
+- "+"
+- "!="
+- !private "&&"
+- !private "Comparable"
+- !private "||"
+- "<^>"
+- "TextFile"
+- "->>"
+- "->!"
+- !private "BooleanLiteralType"
+- "ReadableWritable"
+- !private "UnicodeScalarType"
+- "+>!"
+- "Void"
+- "|~"
+- "=>>"
+- "<"
+- "/="
+- "/"
+- "^"
+- "=>!"
+- "Bool"
+- "String"
+- "%"
+- "TernaryPrecedence"
+- "DefaultPrecedence"
+- "Path"
+- "=="
+- "AssignmentPrecedence"
+- "|>>"
+- "</>"
+- "*"
+- "|"
+depends-member:
+- !private ["Ps9AnyObject", "CompareOptions"]
+- !private ["Ps9AnyObject", "characters"]
+- !private ["Ps9AnyObject", "copy"]
+- !private ["Ps9AnyObject", "encoding"]
+- !private ["Ps9AnyObject", "grep"]
+- !private ["Ps9AnyObject", "hasPrefix"]
+- !private ["Ps9AnyObject", "hasSuffix"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isEmpty"]
+- !private ["Ps9AnyObject", "move"]
+- !private ["Ps9AnyObject", "path"]
+- !private ["Ps9AnyObject", "read"]
+- !private ["Ps9AnyObject", "size"]
+- !private ["Ps9AnyObject", "startIndex"]
+- !private ["Ps9AnyObject", "substring"]
+- !private ["Ps9AnyObject", "symlink"]
+- !private ["Ps9AnyObject", "write"]
+- ["Sa", "deinit"]
+- !private ["Ps23BidirectionalCollection", "index"]
+- !private ["Ps22BidirectionalIndexable", "index"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "CompareOptions"]
+- !private ["Ps7CVarArg", "characters"]
+- !private ["Ps7CVarArg", "hasPrefix"]
+- !private ["Ps7CVarArg", "hasSuffix"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- !private ["Ps7CVarArg", "startIndex"]
+- !private ["Ps7CVarArg", "substring"]
+- !private ["Vs9Character", "deinit"]
+- ["VSS13CharacterView", "deinit"]
+- !private ["VSS13CharacterView", "index"]
+- !private ["Ps10Collection", "index"]
+- !private ["Ps10Comparable", "characters"]
+- !private ["Ps10Comparable", "copy"]
+- !private ["Ps10Comparable", "encoding"]
+- !private ["Ps10Comparable", "grep"]
+- !private ["Ps10Comparable", "hasPrefix"]
+- !private ["Ps10Comparable", "hasSuffix"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "isEmpty"]
+- !private ["Ps10Comparable", "move"]
+- !private ["Ps10Comparable", "path"]
+- !private ["Ps10Comparable", "read"]
+- !private ["Ps10Comparable", "size"]
+- !private ["Ps10Comparable", "startIndex"]
+- !private ["Ps10Comparable", "substring"]
+- !private ["Ps10Comparable", "symlink"]
+- !private ["Ps10Comparable", "write"]
+- ["VCSo8NSString14CompareOptions", "deinit"]
+- !private ["VCSo8NSString14CompareOptions", "regularExpression"]
+- !private ["Ps28CustomDebugStringConvertible", "CompareOptions"]
+- !private ["Ps28CustomDebugStringConvertible", "absolute"]
+- !private ["Ps28CustomDebugStringConvertible", "changeDirectory"]
+- !private ["Ps28CustomDebugStringConvertible", "characters"]
+- !private ["Ps28CustomDebugStringConvertible", "commonAncestor"]
+- !private ["Ps28CustomDebugStringConvertible", "copy"]
+- !private ["Ps28CustomDebugStringConvertible", "copyFile"]
+- !private ["Ps28CustomDebugStringConvertible", "deleteFile"]
+- !private ["Ps28CustomDebugStringConvertible", "encoding"]
+- !private ["Ps28CustomDebugStringConvertible", "fileName"]
+- !private ["Ps28CustomDebugStringConvertible", "grep"]
+- !private ["Ps28CustomDebugStringConvertible", "hasPrefix"]
+- !private ["Ps28CustomDebugStringConvertible", "hasSuffix"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isAbsolute"]
+- !private ["Ps28CustomDebugStringConvertible", "isAny"]
+- !private ["Ps28CustomDebugStringConvertible", "isDirectory"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "move"]
+- !private ["Ps28CustomDebugStringConvertible", "moveFile"]
+- !private ["Ps28CustomDebugStringConvertible", "parent"]
+- !private ["Ps28CustomDebugStringConvertible", "path"]
+- !private ["Ps28CustomDebugStringConvertible", "rawValue"]
+- !private ["Ps28CustomDebugStringConvertible", "read"]
+- !private ["Ps28CustomDebugStringConvertible", "resolved"]
+- !private ["Ps28CustomDebugStringConvertible", "separator"]
+- !private ["Ps28CustomDebugStringConvertible", "size"]
+- !private ["Ps28CustomDebugStringConvertible", "standardRawValueWithTilde"]
+- !private ["Ps28CustomDebugStringConvertible", "standardized"]
+- !private ["Ps28CustomDebugStringConvertible", "startIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "substring"]
+- !private ["Ps28CustomDebugStringConvertible", "symlink"]
+- !private ["Ps28CustomDebugStringConvertible", "symlinkFile"]
+- !private ["Ps28CustomDebugStringConvertible", "write"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "CompareOptions"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "characters"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hasPrefix"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hasSuffix"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isEmpty"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "startIndex"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "substring"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "characters"]
+- !private ["Ps17CustomReflectable", "hasPrefix"]
+- !private ["Ps17CustomReflectable", "hasSuffix"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "startIndex"]
+- !private ["Ps17CustomReflectable", "substring"]
+- !private ["Ps23CustomStringConvertible", "CompareOptions"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "absolute"]
+- !private ["Ps23CustomStringConvertible", "changeDirectory"]
+- !private ["Ps23CustomStringConvertible", "characters"]
+- !private ["Ps23CustomStringConvertible", "commonAncestor"]
+- !private ["Ps23CustomStringConvertible", "copy"]
+- !private ["Ps23CustomStringConvertible", "copyFile"]
+- !private ["Ps23CustomStringConvertible", "deleteFile"]
+- !private ["Ps23CustomStringConvertible", "encoding"]
+- !private ["Ps23CustomStringConvertible", "fileName"]
+- !private ["Ps23CustomStringConvertible", "grep"]
+- !private ["Ps23CustomStringConvertible", "hasPrefix"]
+- !private ["Ps23CustomStringConvertible", "hasSuffix"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isAbsolute"]
+- !private ["Ps23CustomStringConvertible", "isAny"]
+- !private ["Ps23CustomStringConvertible", "isDirectory"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "move"]
+- !private ["Ps23CustomStringConvertible", "moveFile"]
+- !private ["Ps23CustomStringConvertible", "parent"]
+- !private ["Ps23CustomStringConvertible", "path"]
+- !private ["Ps23CustomStringConvertible", "rawValue"]
+- !private ["Ps23CustomStringConvertible", "read"]
+- !private ["Ps23CustomStringConvertible", "resolved"]
+- !private ["Ps23CustomStringConvertible", "separator"]
+- !private ["Ps23CustomStringConvertible", "size"]
+- !private ["Ps23CustomStringConvertible", "standardRawValueWithTilde"]
+- !private ["Ps23CustomStringConvertible", "standardized"]
+- !private ["Ps23CustomStringConvertible", "startIndex"]
+- !private ["Ps23CustomStringConvertible", "substring"]
+- !private ["Ps23CustomStringConvertible", "symlink"]
+- !private ["Ps23CustomStringConvertible", "symlinkFile"]
+- !private ["Ps23CustomStringConvertible", "write"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "CompareOptions"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "absolute"]
+- !private ["Ps9Equatable", "changeDirectory"]
+- !private ["Ps9Equatable", "characters"]
+- !private ["Ps9Equatable", "commonAncestor"]
+- !private ["Ps9Equatable", "copy"]
+- !private ["Ps9Equatable", "copyFile"]
+- !private ["Ps9Equatable", "deleteFile"]
+- !private ["Ps9Equatable", "encoding"]
+- !private ["Ps9Equatable", "fileName"]
+- !private ["Ps9Equatable", "grep"]
+- !private ["Ps9Equatable", "hasPrefix"]
+- !private ["Ps9Equatable", "hasSuffix"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isAbsolute"]
+- !private ["Ps9Equatable", "isAny"]
+- !private ["Ps9Equatable", "isDirectory"]
+- !private ["Ps9Equatable", "isEmpty"]
+- !private ["Ps9Equatable", "move"]
+- !private ["Ps9Equatable", "moveFile"]
+- !private ["Ps9Equatable", "parent"]
+- !private ["Ps9Equatable", "path"]
+- !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "read"]
+- !private ["Ps9Equatable", "regularExpression"]
+- !private ["Ps9Equatable", "resolved"]
+- !private ["Ps9Equatable", "separator"]
+- !private ["Ps9Equatable", "size"]
+- !private ["Ps9Equatable", "standardRawValueWithTilde"]
+- !private ["Ps9Equatable", "standardized"]
+- !private ["Ps9Equatable", "startIndex"]
+- !private ["Ps9Equatable", "substring"]
+- !private ["Ps9Equatable", "symlink"]
+- !private ["Ps9Equatable", "symlinkFile"]
+- !private ["Ps9Equatable", "write"]
+- !private ["Ps25ExpressibleByArrayLiteral", "regularExpression"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "CompareOptions"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "absolute"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "changeDirectory"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "characters"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "commonAncestor"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "copyFile"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "deleteFile"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "fileName"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "hasPrefix"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "hasSuffix"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "isAbsolute"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "isAny"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "isDirectory"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "isEmpty"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "moveFile"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "parent"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "rawValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "resolved"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "separator"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "standardRawValueWithTilde"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "standardized"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "startIndex"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "substring"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "symlinkFile"]
+- !private ["Ps32ExpressibleByStringInterpolation", "absolute"]
+- !private ["Ps32ExpressibleByStringInterpolation", "changeDirectory"]
+- !private ["Ps32ExpressibleByStringInterpolation", "characters"]
+- !private ["Ps32ExpressibleByStringInterpolation", "commonAncestor"]
+- !private ["Ps32ExpressibleByStringInterpolation", "copyFile"]
+- !private ["Ps32ExpressibleByStringInterpolation", "deleteFile"]
+- !private ["Ps32ExpressibleByStringInterpolation", "fileName"]
+- !private ["Ps32ExpressibleByStringInterpolation", "hasPrefix"]
+- !private ["Ps32ExpressibleByStringInterpolation", "hasSuffix"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "isAbsolute"]
+- !private ["Ps32ExpressibleByStringInterpolation", "isAny"]
+- !private ["Ps32ExpressibleByStringInterpolation", "isDirectory"]
+- !private ["Ps32ExpressibleByStringInterpolation", "isEmpty"]
+- !private ["Ps32ExpressibleByStringInterpolation", "moveFile"]
+- !private ["Ps32ExpressibleByStringInterpolation", "parent"]
+- !private ["Ps32ExpressibleByStringInterpolation", "rawValue"]
+- !private ["Ps32ExpressibleByStringInterpolation", "resolved"]
+- !private ["Ps32ExpressibleByStringInterpolation", "separator"]
+- !private ["Ps32ExpressibleByStringInterpolation", "standardRawValueWithTilde"]
+- !private ["Ps32ExpressibleByStringInterpolation", "standardized"]
+- !private ["Ps32ExpressibleByStringInterpolation", "startIndex"]
+- !private ["Ps32ExpressibleByStringInterpolation", "substring"]
+- !private ["Ps32ExpressibleByStringInterpolation", "symlinkFile"]
+- !private ["Ps26ExpressibleByStringLiteral", "CompareOptions"]
+- !private ["Ps26ExpressibleByStringLiteral", "absolute"]
+- !private ["Ps26ExpressibleByStringLiteral", "changeDirectory"]
+- !private ["Ps26ExpressibleByStringLiteral", "characters"]
+- !private ["Ps26ExpressibleByStringLiteral", "commonAncestor"]
+- !private ["Ps26ExpressibleByStringLiteral", "copyFile"]
+- !private ["Ps26ExpressibleByStringLiteral", "deleteFile"]
+- !private ["Ps26ExpressibleByStringLiteral", "fileName"]
+- !private ["Ps26ExpressibleByStringLiteral", "hasPrefix"]
+- !private ["Ps26ExpressibleByStringLiteral", "hasSuffix"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "isAbsolute"]
+- !private ["Ps26ExpressibleByStringLiteral", "isAny"]
+- !private ["Ps26ExpressibleByStringLiteral", "isDirectory"]
+- !private ["Ps26ExpressibleByStringLiteral", "isEmpty"]
+- !private ["Ps26ExpressibleByStringLiteral", "moveFile"]
+- !private ["Ps26ExpressibleByStringLiteral", "parent"]
+- !private ["Ps26ExpressibleByStringLiteral", "rawValue"]
+- !private ["Ps26ExpressibleByStringLiteral", "resolved"]
+- !private ["Ps26ExpressibleByStringLiteral", "separator"]
+- !private ["Ps26ExpressibleByStringLiteral", "standardRawValueWithTilde"]
+- !private ["Ps26ExpressibleByStringLiteral", "standardized"]
+- !private ["Ps26ExpressibleByStringLiteral", "startIndex"]
+- !private ["Ps26ExpressibleByStringLiteral", "substring"]
+- !private ["Ps26ExpressibleByStringLiteral", "symlinkFile"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "CompareOptions"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "absolute"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "changeDirectory"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "characters"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "commonAncestor"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "copyFile"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "deleteFile"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "fileName"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "hasPrefix"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "hasSuffix"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "isAbsolute"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "isAny"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "isDirectory"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "isEmpty"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "moveFile"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "parent"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "rawValue"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "resolved"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "separator"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "standardRawValueWithTilde"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "standardized"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "startIndex"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "substring"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "symlinkFile"]
+- !private ["C7FileKit4File", "copy"]
+- ["C7FileKit4File", "deinit"]
+- !private ["C7FileKit4File", "encoding"]
+- !private ["C7FileKit4File", "grep"]
+- !private ["C7FileKit4File", "move"]
+- !private ["C7FileKit4File", "path"]
+- !private ["C7FileKit4File", "read"]
+- !private ["C7FileKit4File", "size"]
+- !private ["C7FileKit4File", "symlink"]
+- !private ["C7FileKit4File", "write"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "CompareOptions"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "absolute"]
+- !private ["Ps8Hashable", "changeDirectory"]
+- !private ["Ps8Hashable", "characters"]
+- !private ["Ps8Hashable", "commonAncestor"]
+- !private ["Ps8Hashable", "copyFile"]
+- !private ["Ps8Hashable", "deleteFile"]
+- !private ["Ps8Hashable", "fileName"]
+- !private ["Ps8Hashable", "hasPrefix"]
+- !private ["Ps8Hashable", "hasSuffix"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isAbsolute"]
+- !private ["Ps8Hashable", "isAny"]
+- !private ["Ps8Hashable", "isDirectory"]
+- !private ["Ps8Hashable", "isEmpty"]
+- !private ["Ps8Hashable", "moveFile"]
+- !private ["Ps8Hashable", "parent"]
+- !private ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "resolved"]
+- !private ["Ps8Hashable", "separator"]
+- !private ["Ps8Hashable", "standardRawValueWithTilde"]
+- !private ["Ps8Hashable", "standardized"]
+- !private ["Ps8Hashable", "startIndex"]
+- !private ["Ps8Hashable", "substring"]
+- !private ["Ps8Hashable", "symlinkFile"]
+- ["VVSS13CharacterView5Index", "deinit"]
+- !private ["Ps9Indexable", "index"]
+- !private ["Ps13IndexableBase", "index"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "characters"]
+- !private ["Ps25LosslessStringConvertible", "hasPrefix"]
+- !private ["Ps25LosslessStringConvertible", "hasSuffix"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "isEmpty"]
+- !private ["Ps25LosslessStringConvertible", "startIndex"]
+- !private ["Ps25LosslessStringConvertible", "substring"]
+- !private ["Ps10MirrorPath", "characters"]
+- !private ["Ps10MirrorPath", "hasPrefix"]
+- !private ["Ps10MirrorPath", "hasSuffix"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "isEmpty"]
+- !private ["Ps10MirrorPath", "startIndex"]
+- !private ["Ps10MirrorPath", "substring"]
+- !private ["PSo8NSCoding", "CompareOptions"]
+- !private ["PSo8NSCoding", "characters"]
+- !private ["PSo8NSCoding", "hasPrefix"]
+- !private ["PSo8NSCoding", "hasSuffix"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isEmpty"]
+- !private ["PSo8NSCoding", "startIndex"]
+- !private ["PSo8NSCoding", "substring"]
+- !private ["PSo9NSCopying", "CompareOptions"]
+- !private ["PSo9NSCopying", "characters"]
+- !private ["PSo9NSCopying", "hasPrefix"]
+- !private ["PSo9NSCopying", "hasSuffix"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isEmpty"]
+- !private ["PSo9NSCopying", "startIndex"]
+- !private ["PSo9NSCopying", "substring"]
+- !private ["PSo16NSMutableCopying", "CompareOptions"]
+- !private ["PSo16NSMutableCopying", "characters"]
+- !private ["PSo16NSMutableCopying", "hasPrefix"]
+- !private ["PSo16NSMutableCopying", "hasSuffix"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "isEmpty"]
+- !private ["PSo16NSMutableCopying", "startIndex"]
+- !private ["PSo16NSMutableCopying", "substring"]
+- !private ["CSo8NSObject", "CompareOptions"]
+- !private ["CSo8NSObject", "characters"]
+- !private ["CSo8NSObject", "hasPrefix"]
+- !private ["CSo8NSObject", "hasSuffix"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isEmpty"]
+- !private ["CSo8NSObject", "startIndex"]
+- !private ["CSo8NSObject", "substring"]
+- !private ["PSo16NSObjectProtocol", "CompareOptions"]
+- !private ["PSo16NSObjectProtocol", "characters"]
+- !private ["PSo16NSObjectProtocol", "hasPrefix"]
+- !private ["PSo16NSObjectProtocol", "hasSuffix"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isEmpty"]
+- !private ["PSo16NSObjectProtocol", "startIndex"]
+- !private ["PSo16NSObjectProtocol", "substring"]
+- !private ["PSo19NSPasteboardReading", "CompareOptions"]
+- !private ["PSo19NSPasteboardReading", "characters"]
+- !private ["PSo19NSPasteboardReading", "hasPrefix"]
+- !private ["PSo19NSPasteboardReading", "hasSuffix"]
+- !private ["PSo19NSPasteboardReading", "init"]
+- !private ["PSo19NSPasteboardReading", "isEmpty"]
+- !private ["PSo19NSPasteboardReading", "startIndex"]
+- !private ["PSo19NSPasteboardReading", "substring"]
+- !private ["PSo19NSPasteboardWriting", "CompareOptions"]
+- !private ["PSo19NSPasteboardWriting", "characters"]
+- !private ["PSo19NSPasteboardWriting", "hasPrefix"]
+- !private ["PSo19NSPasteboardWriting", "hasSuffix"]
+- !private ["PSo19NSPasteboardWriting", "init"]
+- !private ["PSo19NSPasteboardWriting", "isEmpty"]
+- !private ["PSo19NSPasteboardWriting", "startIndex"]
+- !private ["PSo19NSPasteboardWriting", "substring"]
+- !private ["PSo14NSSecureCoding", "CompareOptions"]
+- !private ["PSo14NSSecureCoding", "characters"]
+- !private ["PSo14NSSecureCoding", "hasPrefix"]
+- !private ["PSo14NSSecureCoding", "hasSuffix"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "isEmpty"]
+- !private ["PSo14NSSecureCoding", "startIndex"]
+- !private ["PSo14NSSecureCoding", "substring"]
+- !private ["CSo8NSString", "CompareOptions"]
+- !private ["CSo8NSString", "characters"]
+- !private ["CSo8NSString", "hasPrefix"]
+- !private ["CSo8NSString", "hasSuffix"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "isEmpty"]
+- !private ["CSo8NSString", "startIndex"]
+- !private ["CSo8NSString", "substring"]
+- !private ["Ps9OptionSet", "regularExpression"]
+- ["Sq", "deinit"]
+- !private ["V7FileKit4Path", "absolute"]
+- !private ["V7FileKit4Path", "changeDirectory"]
+- !private ["V7FileKit4Path", "commonAncestor"]
+- !private ["V7FileKit4Path", "copyFile"]
+- ["V7FileKit4Path", "deinit"]
+- !private ["V7FileKit4Path", "deleteFile"]
+- !private ["V7FileKit4Path", "fileName"]
+- !private ["V7FileKit4Path", "init"]
+- !private ["V7FileKit4Path", "isAbsolute"]
+- !private ["V7FileKit4Path", "isAny"]
+- !private ["V7FileKit4Path", "isDirectory"]
+- !private ["V7FileKit4Path", "moveFile"]
+- !private ["V7FileKit4Path", "parent"]
+- !private ["V7FileKit4Path", "rawValue"]
+- !private ["V7FileKit4Path", "resolved"]
+- !private ["V7FileKit4Path", "separator"]
+- !private ["V7FileKit4Path", "standardRawValueWithTilde"]
+- !private ["V7FileKit4Path", "standardized"]
+- !private ["V7FileKit4Path", "symlinkFile"]
+- !private ["Ps26RangeReplaceableCollection", "index"]
+- !private ["Ps25RangeReplaceableIndexable", "index"]
+- !private ["Ps16RawRepresentable", "absolute"]
+- !private ["Ps16RawRepresentable", "changeDirectory"]
+- !private ["Ps16RawRepresentable", "commonAncestor"]
+- !private ["Ps16RawRepresentable", "copyFile"]
+- !private ["Ps16RawRepresentable", "deleteFile"]
+- !private ["Ps16RawRepresentable", "fileName"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "isAbsolute"]
+- !private ["Ps16RawRepresentable", "isAny"]
+- !private ["Ps16RawRepresentable", "isDirectory"]
+- !private ["Ps16RawRepresentable", "moveFile"]
+- !private ["Ps16RawRepresentable", "parent"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps16RawRepresentable", "regularExpression"]
+- !private ["Ps16RawRepresentable", "resolved"]
+- !private ["Ps16RawRepresentable", "separator"]
+- !private ["Ps16RawRepresentable", "standardRawValueWithTilde"]
+- !private ["Ps16RawRepresentable", "standardized"]
+- !private ["Ps16RawRepresentable", "symlinkFile"]
+- !private ["P7FileKit8Readable", "characters"]
+- !private ["P7FileKit8Readable", "hasPrefix"]
+- !private ["P7FileKit8Readable", "hasSuffix"]
+- !private ["P7FileKit8Readable", "init"]
+- !private ["P7FileKit8Readable", "isEmpty"]
+- !private ["P7FileKit8Readable", "startIndex"]
+- !private ["P7FileKit8Readable", "substring"]
+- !private ["Ps8Sequence", "absolute"]
+- !private ["Ps8Sequence", "changeDirectory"]
+- !private ["Ps8Sequence", "commonAncestor"]
+- !private ["Ps8Sequence", "copyFile"]
+- !private ["Ps8Sequence", "deleteFile"]
+- !private ["Ps8Sequence", "fileName"]
+- !private ["Ps8Sequence", "index"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "isAbsolute"]
+- !private ["Ps8Sequence", "isAny"]
+- !private ["Ps8Sequence", "isDirectory"]
+- !private ["Ps8Sequence", "moveFile"]
+- !private ["Ps8Sequence", "parent"]
+- !private ["Ps8Sequence", "rawValue"]
+- !private ["Ps8Sequence", "resolved"]
+- !private ["Ps8Sequence", "separator"]
+- !private ["Ps8Sequence", "standardRawValueWithTilde"]
+- !private ["Ps8Sequence", "standardized"]
+- !private ["Ps8Sequence", "symlinkFile"]
+- !private ["Ps10SetAlgebra", "regularExpression"]
+- !private ["SS", "characters"]
+- ["SS", "deinit"]
+- !private ["SS", "hasPrefix"]
+- !private ["SS", "hasSuffix"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["SS", "startIndex"]
+- !private ["SS", "substring"]
+- ["C7FileKit8TextFile", "deinit"]
+- !private ["C7FileKit8TextFile", "encoding"]
+- !private ["C7FileKit8TextFile", "grep"]
+- !private ["C7FileKit8TextFile", "path"]
+- !private ["C7FileKit8TextFile", "read"]
+- !private ["Ps16TextOutputStream", "characters"]
+- !private ["Ps16TextOutputStream", "hasPrefix"]
+- !private ["Ps16TextOutputStream", "hasSuffix"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "isEmpty"]
+- !private ["Ps16TextOutputStream", "startIndex"]
+- !private ["Ps16TextOutputStream", "substring"]
+- !private ["Ps20TextOutputStreamable", "characters"]
+- !private ["Ps20TextOutputStreamable", "hasPrefix"]
+- !private ["Ps20TextOutputStreamable", "hasSuffix"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "isEmpty"]
+- !private ["Ps20TextOutputStreamable", "startIndex"]
+- !private ["Ps20TextOutputStreamable", "substring"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["P7FileKit8Writable", "CompareOptions"]
+- !private ["P7FileKit8Writable", "characters"]
+- !private ["P7FileKit8Writable", "hasPrefix"]
+- !private ["P7FileKit8Writable", "hasSuffix"]
+- !private ["P7FileKit8Writable", "init"]
+- !private ["P7FileKit8Writable", "isEmpty"]
+- !private ["P7FileKit8Writable", "startIndex"]
+- !private ["P7FileKit8Writable", "substring"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "characters"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "hasPrefix"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "hasSuffix"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "isEmpty"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "startIndex"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "substring"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "characters"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "hasPrefix"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "hasSuffix"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "isEmpty"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "startIndex"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "substring"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "characters"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "hasPrefix"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "hasSuffix"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "isEmpty"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "startIndex"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "substring"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "characters"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "hasPrefix"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "hasSuffix"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "isEmpty"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "startIndex"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "substring"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "CompareOptions"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "characters"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "hasPrefix"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "hasSuffix"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "isEmpty"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "startIndex"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "substring"]
+- !private ["Ps9_Hashable", "CompareOptions"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "absolute"]
+- !private ["Ps9_Hashable", "changeDirectory"]
+- !private ["Ps9_Hashable", "characters"]
+- !private ["Ps9_Hashable", "commonAncestor"]
+- !private ["Ps9_Hashable", "copyFile"]
+- !private ["Ps9_Hashable", "deleteFile"]
+- !private ["Ps9_Hashable", "fileName"]
+- !private ["Ps9_Hashable", "hasPrefix"]
+- !private ["Ps9_Hashable", "hasSuffix"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isAbsolute"]
+- !private ["Ps9_Hashable", "isAny"]
+- !private ["Ps9_Hashable", "isDirectory"]
+- !private ["Ps9_Hashable", "isEmpty"]
+- !private ["Ps9_Hashable", "moveFile"]
+- !private ["Ps9_Hashable", "parent"]
+- !private ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "resolved"]
+- !private ["Ps9_Hashable", "separator"]
+- !private ["Ps9_Hashable", "standardRawValueWithTilde"]
+- !private ["Ps9_Hashable", "standardized"]
+- !private ["Ps9_Hashable", "startIndex"]
+- !private ["Ps9_Hashable", "substring"]
+- !private ["Ps9_Hashable", "symlinkFile"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "characters"]
+- !private ["Ps21_ObjectiveCBridgeable", "hasPrefix"]
+- !private ["Ps21_ObjectiveCBridgeable", "hasSuffix"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "startIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "substring"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Sb"
+- !private "Ps7CVarArg"
+- !private "Vs9Character"
+- "VSS13CharacterView"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "VCSo8NSString14CompareOptions"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C7FileKit4File"
+- !private "Sf"
+- !private "Ps8Hashable"
+- "VVSS13CharacterView5Index"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo19NSPasteboardReading"
+- !private "PSo19NSPasteboardWriting"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps9OptionSet"
+- "Sq"
+- "V7FileKit4Path"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- !private "P7FileKit8Readable"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- "SS"
+- "C7FileKit8TextFile"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "P7FileKit8Writable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/CYaml.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+interface-hash: "be54af8df00b490238316f377f36d801"

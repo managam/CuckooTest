@@ -1,0 +1,129 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProtocolDeclaration"
+provides-nominal:
+- "V24CuckooGeneratorFramework19ProtocolDeclaration"
+provides-member:
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- "InheritanceDeclaration"
+- "BooleanLiteralType"
+- "Attribute"
+- "Token"
+- "Int"
+- "ContainerToken"
+- "Initializer"
+- "CastingPrecedence"
+- "Accessibility"
+- !private "=="
+- "ProtocolDeclaration"
+- "Bool"
+- "CountableRange"
+depends-member:
+- ["O24CuckooGeneratorFramework13Accessibility", "deinit"]
+- ["Sa", "deinit"]
+- ["Sb", "deinit"]
+- !private ["P24CuckooGeneratorFramework14ContainerToken", "ProtocolDeclaration"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "accessibility"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "attributes"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "bodyRange"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "children"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "implementation"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "inheritedTypes"]
+- !private ["P24CuckooGeneratorFramework14ContainerToken", "init"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "initializers"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "isEqual"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "name"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "nameRange"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "range"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "serialize"]
+- ["P24CuckooGeneratorFramework14ContainerToken", ""]
+- ["Vs14CountableRange", "deinit"]
+- ["Sq", "deinit"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "Accessibility"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "Attribute"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "Bool"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "CountableRange"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "InheritanceDeclaration"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "Initializer"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "Int"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "ProtocolDeclaration"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "String"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "Token"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "accessibility"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "attributes"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "bodyRange"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "children"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "deinit"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "implementation"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "inheritedTypes"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "init"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "initializers"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "isEqual"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "name"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "nameRange"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "range"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "replace"]
+- ["V24CuckooGeneratorFramework19ProtocolDeclaration", "serialize"]
+- ["SS", "deinit"]
+- !private ["P24CuckooGeneratorFramework5Token", "ProtocolDeclaration"]
+- ["P24CuckooGeneratorFramework5Token", "accessibility"]
+- ["P24CuckooGeneratorFramework5Token", "attributes"]
+- ["P24CuckooGeneratorFramework5Token", "bodyRange"]
+- ["P24CuckooGeneratorFramework5Token", "children"]
+- ["P24CuckooGeneratorFramework5Token", "deinit"]
+- ["P24CuckooGeneratorFramework5Token", "implementation"]
+- ["P24CuckooGeneratorFramework5Token", "inheritedTypes"]
+- !private ["P24CuckooGeneratorFramework5Token", "init"]
+- ["P24CuckooGeneratorFramework5Token", "initializers"]
+- ["P24CuckooGeneratorFramework5Token", "isEqual"]
+- ["P24CuckooGeneratorFramework5Token", "name"]
+- ["P24CuckooGeneratorFramework5Token", "nameRange"]
+- ["P24CuckooGeneratorFramework5Token", "range"]
+- ["P24CuckooGeneratorFramework5Token", "serialize"]
+- ["P24CuckooGeneratorFramework5Token", ""]
+depends-nominal:
+- "O24CuckooGeneratorFramework13Accessibility"
+- "Sa"
+- "Sb"
+- "P24CuckooGeneratorFramework14ContainerToken"
+- "Vs14CountableRange"
+- "Sq"
+- "V24CuckooGeneratorFramework19ProtocolDeclaration"
+- "SS"
+- "P24CuckooGeneratorFramework5Token"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/CYaml.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Stencil.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/PathKit.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/SourceKittenFramework.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/CXCompilationDatabase.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/BuildSystem.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/CXString.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/CXErrorCode.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/Platform.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/Index.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/Documentation.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKit-1.0.1/module.modulemap"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/module.modulemap"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/SWXMLHash.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Yams.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Yams-0.1.4/Sources/CYaml/include/yaml.h"
+interface-hash: "6d5a35e428d6060309cee289963a93a5"

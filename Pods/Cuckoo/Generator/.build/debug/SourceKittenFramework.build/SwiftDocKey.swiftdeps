@@ -1,0 +1,464 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SwiftDocKey"
+provides-nominal:
+- "O21SourceKittenFramework11SwiftDocKey"
+provides-member:
+- ["O21SourceKittenFramework11SwiftDocKey", ""]
+- ["O21SourceKittenFramework11SwiftDocKey", "AnnotatedDeclaration"]
+- ["O21SourceKittenFramework11SwiftDocKey", "BodyLength"]
+- ["O21SourceKittenFramework11SwiftDocKey", "BodyOffset"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DiagnosticStage"]
+- ["O21SourceKittenFramework11SwiftDocKey", "FilePath"]
+- ["O21SourceKittenFramework11SwiftDocKey", "FullXMLDocs"]
+- ["O21SourceKittenFramework11SwiftDocKey", "Kind"]
+- ["O21SourceKittenFramework11SwiftDocKey", "Length"]
+- ["O21SourceKittenFramework11SwiftDocKey", "Name"]
+- ["O21SourceKittenFramework11SwiftDocKey", "NameLength"]
+- ["O21SourceKittenFramework11SwiftDocKey", "NameOffset"]
+- ["O21SourceKittenFramework11SwiftDocKey", "Offset"]
+- ["O21SourceKittenFramework11SwiftDocKey", "Substructure"]
+- ["O21SourceKittenFramework11SwiftDocKey", "SyntaxMap"]
+- ["O21SourceKittenFramework11SwiftDocKey", "TypeName"]
+- ["O21SourceKittenFramework11SwiftDocKey", "Inheritedtypes"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DocColumn"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DocumentationComment"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DocDeclaration"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DocDiscussion"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DocFile"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DocLine"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DocName"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DocParameters"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DocResultDiscussion"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DocType"]
+- ["O21SourceKittenFramework11SwiftDocKey", "USR"]
+- ["O21SourceKittenFramework11SwiftDocKey", "ParsedDeclaration"]
+- ["O21SourceKittenFramework11SwiftDocKey", "ParsedScopeEnd"]
+- ["O21SourceKittenFramework11SwiftDocKey", "ParsedScopeStart"]
+- ["O21SourceKittenFramework11SwiftDocKey", "SwiftDeclaration"]
+- ["O21SourceKittenFramework11SwiftDocKey", "AlwaysDeprecated"]
+- ["O21SourceKittenFramework11SwiftDocKey", "AlwaysUnavailable"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DeprecationMessage"]
+- ["O21SourceKittenFramework11SwiftDocKey", "UnavailableMessage"]
+provides-dynamic-lookup:
+depends-top-level:
+- "StringLiteralType"
+- "String"
+- "SwiftDocKey"
+- "Int64"
+- "SourceKitRepresentable"
+- !private "CastingPrecedence"
+- "=="
+- !private "~="
+- !private "fatalError"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Index"]
+- !private ["Ps7CVarArg", "SubSequence"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Vs11ClosedRange", "deinit"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["Vs20CountableClosedRange", "deinit"]
+- !private ["Vs14CountableRange", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "SubSequence"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "annotatedDeclaration"]
+- !private ["Ps9Equatable", "bodyLength"]
+- !private ["Ps9Equatable", "bodyOffset"]
+- !private ["Ps9Equatable", "fatalError"]
+- !private ["Ps9Equatable", "filePath"]
+- !private ["Ps9Equatable", "fullXMLDocs"]
+- !private ["Ps9Equatable", "get"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "kind"]
+- !private ["Ps9Equatable", "length"]
+- !private ["Ps9Equatable", "nameLength"]
+- !private ["Ps9Equatable", "nameOffset"]
+- !private ["Ps9Equatable", "offset"]
+- ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "substructure"]
+- !private ["Ps9Equatable", "syntaxMap"]
+- !private ["Ps9Equatable", "typeName"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Index"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "SubSequence"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "annotatedDeclaration"]
+- !private ["Ps8Hashable", "bodyLength"]
+- !private ["Ps8Hashable", "bodyOffset"]
+- !private ["Ps8Hashable", "fatalError"]
+- !private ["Ps8Hashable", "filePath"]
+- !private ["Ps8Hashable", "fullXMLDocs"]
+- !private ["Ps8Hashable", "get"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "kind"]
+- !private ["Ps8Hashable", "length"]
+- !private ["Ps8Hashable", "nameLength"]
+- !private ["Ps8Hashable", "nameOffset"]
+- !private ["Ps8Hashable", "offset"]
+- ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "substructure"]
+- !private ["Ps8Hashable", "syntaxMap"]
+- !private ["Ps8Hashable", "typeName"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["Os5Never", "deinit"]
+- ["Sq", "deinit"]
+- !private ["Vs5Range", "deinit"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- !private ["Ps16RawRepresentable", "annotatedDeclaration"]
+- !private ["Ps16RawRepresentable", "bodyLength"]
+- !private ["Ps16RawRepresentable", "bodyOffset"]
+- !private ["Ps16RawRepresentable", "fatalError"]
+- !private ["Ps16RawRepresentable", "filePath"]
+- !private ["Ps16RawRepresentable", "fullXMLDocs"]
+- !private ["Ps16RawRepresentable", "get"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "kind"]
+- !private ["Ps16RawRepresentable", "length"]
+- !private ["Ps16RawRepresentable", "nameLength"]
+- !private ["Ps16RawRepresentable", "nameOffset"]
+- !private ["Ps16RawRepresentable", "offset"]
+- ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps16RawRepresentable", "substructure"]
+- !private ["Ps16RawRepresentable", "syntaxMap"]
+- !private ["Ps16RawRepresentable", "typeName"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["P21SourceKittenFramework22SourceKitRepresentable", "Index"]
+- !private ["P21SourceKittenFramework22SourceKitRepresentable", "SubSequence"]
+- !private ["P21SourceKittenFramework22SourceKitRepresentable", "_getBuiltinLogicValue"]
+- ["P21SourceKittenFramework22SourceKitRepresentable", "init"]
+- !private ["P21SourceKittenFramework22SourceKitRepresentable", "subscript"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["O21SourceKittenFramework11SwiftDocKey", "AlwaysDeprecated"]
+- ["O21SourceKittenFramework11SwiftDocKey", "AlwaysUnavailable"]
+- ["O21SourceKittenFramework11SwiftDocKey", "AnnotatedDeclaration"]
+- ["O21SourceKittenFramework11SwiftDocKey", "BodyLength"]
+- ["O21SourceKittenFramework11SwiftDocKey", "BodyOffset"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DeprecationMessage"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DiagnosticStage"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DocColumn"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DocDeclaration"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DocDiscussion"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DocFile"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DocLine"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DocName"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DocParameters"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DocResultDiscussion"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DocType"]
+- ["O21SourceKittenFramework11SwiftDocKey", "DocumentationComment"]
+- ["O21SourceKittenFramework11SwiftDocKey", "FilePath"]
+- ["O21SourceKittenFramework11SwiftDocKey", "FullXMLDocs"]
+- ["O21SourceKittenFramework11SwiftDocKey", "Inheritedtypes"]
+- ["O21SourceKittenFramework11SwiftDocKey", "Int64"]
+- ["O21SourceKittenFramework11SwiftDocKey", "Kind"]
+- ["O21SourceKittenFramework11SwiftDocKey", "Length"]
+- ["O21SourceKittenFramework11SwiftDocKey", "Name"]
+- ["O21SourceKittenFramework11SwiftDocKey", "NameLength"]
+- ["O21SourceKittenFramework11SwiftDocKey", "NameOffset"]
+- ["O21SourceKittenFramework11SwiftDocKey", "Offset"]
+- ["O21SourceKittenFramework11SwiftDocKey", "ParsedDeclaration"]
+- ["O21SourceKittenFramework11SwiftDocKey", "ParsedScopeEnd"]
+- ["O21SourceKittenFramework11SwiftDocKey", "ParsedScopeStart"]
+- ["O21SourceKittenFramework11SwiftDocKey", "RawValue"]
+- ["O21SourceKittenFramework11SwiftDocKey", "SourceKitRepresentable"]
+- ["O21SourceKittenFramework11SwiftDocKey", "String"]
+- ["O21SourceKittenFramework11SwiftDocKey", "Substructure"]
+- ["O21SourceKittenFramework11SwiftDocKey", "SwiftDeclaration"]
+- ["O21SourceKittenFramework11SwiftDocKey", "SwiftDocKey"]
+- ["O21SourceKittenFramework11SwiftDocKey", "SyntaxMap"]
+- ["O21SourceKittenFramework11SwiftDocKey", "TypeName"]
+- ["O21SourceKittenFramework11SwiftDocKey", "USR"]
+- ["O21SourceKittenFramework11SwiftDocKey", "UnavailableMessage"]
+- ["O21SourceKittenFramework11SwiftDocKey", "_toAnyHashable"]
+- ["O21SourceKittenFramework11SwiftDocKey", "alwaysDeprecated"]
+- ["O21SourceKittenFramework11SwiftDocKey", "alwaysUnavailable"]
+- ["O21SourceKittenFramework11SwiftDocKey", "annotatedDeclaration"]
+- ["O21SourceKittenFramework11SwiftDocKey", "bodyLength"]
+- ["O21SourceKittenFramework11SwiftDocKey", "bodyOffset"]
+- ["O21SourceKittenFramework11SwiftDocKey", "deinit"]
+- ["O21SourceKittenFramework11SwiftDocKey", "deprecationMessage"]
+- ["O21SourceKittenFramework11SwiftDocKey", "diagnosticStage"]
+- ["O21SourceKittenFramework11SwiftDocKey", "docColumn"]
+- ["O21SourceKittenFramework11SwiftDocKey", "docDeclaration"]
+- ["O21SourceKittenFramework11SwiftDocKey", "docDiscussion"]
+- ["O21SourceKittenFramework11SwiftDocKey", "docFile"]
+- ["O21SourceKittenFramework11SwiftDocKey", "docLine"]
+- ["O21SourceKittenFramework11SwiftDocKey", "docName"]
+- ["O21SourceKittenFramework11SwiftDocKey", "docParameters"]
+- ["O21SourceKittenFramework11SwiftDocKey", "docResultDiscussion"]
+- ["O21SourceKittenFramework11SwiftDocKey", "docType"]
+- ["O21SourceKittenFramework11SwiftDocKey", "documentationComment"]
+- !private ["O21SourceKittenFramework11SwiftDocKey", "fatalError"]
+- ["O21SourceKittenFramework11SwiftDocKey", "filePath"]
+- ["O21SourceKittenFramework11SwiftDocKey", "fullXMLDocs"]
+- !private ["O21SourceKittenFramework11SwiftDocKey", "get"]
+- ["O21SourceKittenFramework11SwiftDocKey", "getAnnotatedDeclaration"]
+- ["O21SourceKittenFramework11SwiftDocKey", "getBodyLength"]
+- ["O21SourceKittenFramework11SwiftDocKey", "getBodyOffset"]
+- ["O21SourceKittenFramework11SwiftDocKey", "getFilePath"]
+- ["O21SourceKittenFramework11SwiftDocKey", "getFullXMLDocs"]
+- ["O21SourceKittenFramework11SwiftDocKey", "getKind"]
+- ["O21SourceKittenFramework11SwiftDocKey", "getLength"]
+- ["O21SourceKittenFramework11SwiftDocKey", "getNameLength"]
+- ["O21SourceKittenFramework11SwiftDocKey", "getNameOffset"]
+- ["O21SourceKittenFramework11SwiftDocKey", "getOffset"]
+- ["O21SourceKittenFramework11SwiftDocKey", "getSubstructure"]
+- ["O21SourceKittenFramework11SwiftDocKey", "getSyntaxMap"]
+- ["O21SourceKittenFramework11SwiftDocKey", "getTypeName"]
+- ["O21SourceKittenFramework11SwiftDocKey", "hashValue"]
+- ["O21SourceKittenFramework11SwiftDocKey", "inheritedtypes"]
+- ["O21SourceKittenFramework11SwiftDocKey", "init"]
+- ["O21SourceKittenFramework11SwiftDocKey", "kind"]
+- ["O21SourceKittenFramework11SwiftDocKey", "length"]
+- ["O21SourceKittenFramework11SwiftDocKey", "name"]
+- ["O21SourceKittenFramework11SwiftDocKey", "nameLength"]
+- ["O21SourceKittenFramework11SwiftDocKey", "nameOffset"]
+- ["O21SourceKittenFramework11SwiftDocKey", "offset"]
+- ["O21SourceKittenFramework11SwiftDocKey", "parsedDeclaration"]
+- ["O21SourceKittenFramework11SwiftDocKey", "parsedScopeEnd"]
+- ["O21SourceKittenFramework11SwiftDocKey", "parsedScopeStart"]
+- ["O21SourceKittenFramework11SwiftDocKey", "rawValue"]
+- ["O21SourceKittenFramework11SwiftDocKey", "substructure"]
+- ["O21SourceKittenFramework11SwiftDocKey", "swiftDeclaration"]
+- ["O21SourceKittenFramework11SwiftDocKey", "syntaxMap"]
+- ["O21SourceKittenFramework11SwiftDocKey", "typeName"]
+- ["O21SourceKittenFramework11SwiftDocKey", "unavailableMessage"]
+- ["O21SourceKittenFramework11SwiftDocKey", "usr"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Su", "deinit"]
+- !private ["P9SWXMLHash26XMLAttributeDeserializable", "_getBuiltinLogicValue"]
+- !private ["P9SWXMLHash26XMLAttributeDeserializable", "hashValue"]
+- ["P9SWXMLHash26XMLAttributeDeserializable", "init"]
+- !private ["P9SWXMLHash24XMLElementDeserializable", "_getBuiltinLogicValue"]
+- !private ["P9SWXMLHash24XMLElementDeserializable", "hashValue"]
+- ["P9SWXMLHash24XMLElementDeserializable", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "RawValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "annotatedDeclaration"]
+- !private ["Ps9_Hashable", "bodyLength"]
+- !private ["Ps9_Hashable", "bodyOffset"]
+- !private ["Ps9_Hashable", "fatalError"]
+- !private ["Ps9_Hashable", "filePath"]
+- !private ["Ps9_Hashable", "fullXMLDocs"]
+- !private ["Ps9_Hashable", "get"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "kind"]
+- !private ["Ps9_Hashable", "length"]
+- !private ["Ps9_Hashable", "nameLength"]
+- !private ["Ps9_Hashable", "nameOffset"]
+- !private ["Ps9_Hashable", "offset"]
+- ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "substructure"]
+- !private ["Ps9_Hashable", "syntaxMap"]
+- !private ["Ps9_Hashable", "typeName"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Vs11ClosedRange"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- !private "Vs20CountableClosedRange"
+- !private "Vs14CountableRange"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Os5Never"
+- "Sq"
+- !private "Vs5Range"
+- "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs5Slice"
+- "P21SourceKittenFramework22SourceKitRepresentable"
+- "Vs12StaticString"
+- !private "Ps10Strideable"
+- "SS"
+- "O21SourceKittenFramework11SwiftDocKey"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Su"
+- "P9SWXMLHash26XMLAttributeDeserializable"
+- "P9SWXMLHash24XMLElementDeserializable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/CXCompilationDatabase.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/BuildSystem.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/CXString.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/CXErrorCode.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/Platform.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/Index.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/Documentation.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKit-1.0.1/module.modulemap"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/CYaml.build/module.modulemap"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/SWXMLHash.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Yams.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Yams-0.1.4/Sources/CYaml/include/yaml.h"
+interface-hash: "4d5295ba744e374d33e75a385bf8ade6"

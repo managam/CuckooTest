@@ -1,0 +1,270 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ClassDeclaration"
+provides-nominal:
+- "V24CuckooGeneratorFramework16ClassDeclaration"
+provides-member:
+- ["V24CuckooGeneratorFramework16ClassDeclaration", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "InheritanceDeclaration"
+- "BooleanLiteralType"
+- "ContainerToken"
+- "Attribute"
+- "String"
+- "ClassDeclaration"
+- "Token"
+- "CountableRange"
+- "Int"
+- "Initializer"
+- "CastingPrecedence"
+- "Accessibility"
+- !private "=="
+- "Bool"
+depends-member:
+- ["O24CuckooGeneratorFramework13Accessibility", "deinit"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- ["Sa", "deinit"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "isEmpty"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "filter"]
+- !private ["Ps23BidirectionalCollection", "isEmpty"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "filter"]
+- !private ["Ps22BidirectionalIndexable", "isEmpty"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "filter"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "Accessibility"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "Attribute"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "Bool"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "ClassDeclaration"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "CountableRange"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "InheritanceDeclaration"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "Initializer"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "Int"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "String"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "Token"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "accessibility"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "attributes"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "bodyRange"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "children"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "deinit"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "hasNoArgInit"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "implementation"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "inheritedTypes"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "init"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "initializers"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "isEqual"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "name"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "nameRange"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "range"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "replace"]
+- ["V24CuckooGeneratorFramework16ClassDeclaration", "serialize"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "filter"]
+- !private ["Ps10Collection", "isEmpty"]
+- !private ["P24CuckooGeneratorFramework14ContainerToken", "ClassDeclaration"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "accessibility"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "attributes"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "bodyRange"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "children"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "implementation"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "inheritedTypes"]
+- !private ["P24CuckooGeneratorFramework14ContainerToken", "init"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "initializers"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "isEqual"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "name"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "nameRange"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "range"]
+- ["P24CuckooGeneratorFramework14ContainerToken", "serialize"]
+- ["P24CuckooGeneratorFramework14ContainerToken", ""]
+- ["Vs14CountableRange", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "filter"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "filter"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "filter"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "filter"]
+- !private ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "filter"]
+- !private ["Ps9Indexable", "isEmpty"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "filter"]
+- !private ["Ps13IndexableBase", "isEmpty"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["V24CuckooGeneratorFramework11Initializer", "deinit"]
+- !private ["V24CuckooGeneratorFramework11Initializer", "parameters"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["P24CuckooGeneratorFramework6Method", "parameters"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "filter"]
+- !private ["Ps17MutableCollection", "isEmpty"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "filter"]
+- !private ["Ps16MutableIndexable", "isEmpty"]
+- !private ["P7Stencil12Normalizable", "Iterator"]
+- !private ["P7Stencil12Normalizable", "_Element"]
+- !private ["P7Stencil12Normalizable", "filter"]
+- !private ["P7Stencil12Normalizable", "isEmpty"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "filter"]
+- !private ["Ps22RandomAccessCollection", "isEmpty"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "filter"]
+- !private ["Ps21RandomAccessIndexable", "isEmpty"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "filter"]
+- !private ["Ps26RangeReplaceableCollection", "isEmpty"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "filter"]
+- !private ["Ps25RangeReplaceableIndexable", "isEmpty"]
+- !private ["P7FileKit8Readable", "Iterator"]
+- !private ["P7FileKit8Readable", "_Element"]
+- !private ["P7FileKit8Readable", "filter"]
+- !private ["P7FileKit8Readable", "isEmpty"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "filter"]
+- !private ["Ps8Sequence", "isEmpty"]
+- !private ["P21SourceKittenFramework22SourceKitRepresentable", "Iterator"]
+- !private ["P21SourceKittenFramework22SourceKitRepresentable", "_Element"]
+- !private ["P21SourceKittenFramework22SourceKitRepresentable", "filter"]
+- !private ["P21SourceKittenFramework22SourceKitRepresentable", "isEmpty"]
+- ["SS", "deinit"]
+- !private ["P24CuckooGeneratorFramework5Token", "ClassDeclaration"]
+- ["P24CuckooGeneratorFramework5Token", "accessibility"]
+- ["P24CuckooGeneratorFramework5Token", "attributes"]
+- ["P24CuckooGeneratorFramework5Token", "bodyRange"]
+- ["P24CuckooGeneratorFramework5Token", "children"]
+- ["P24CuckooGeneratorFramework5Token", "deinit"]
+- ["P24CuckooGeneratorFramework5Token", "implementation"]
+- ["P24CuckooGeneratorFramework5Token", "inheritedTypes"]
+- !private ["P24CuckooGeneratorFramework5Token", "init"]
+- ["P24CuckooGeneratorFramework5Token", "initializers"]
+- ["P24CuckooGeneratorFramework5Token", "isEqual"]
+- ["P24CuckooGeneratorFramework5Token", "name"]
+- ["P24CuckooGeneratorFramework5Token", "nameRange"]
+- !private ["P24CuckooGeneratorFramework5Token", "parameters"]
+- ["P24CuckooGeneratorFramework5Token", "range"]
+- ["P24CuckooGeneratorFramework5Token", "serialize"]
+- ["P24CuckooGeneratorFramework5Token", ""]
+- !private ["P7FileKit8Writable", "Iterator"]
+- !private ["P7FileKit8Writable", "_Element"]
+- !private ["P7FileKit8Writable", "filter"]
+- !private ["P7FileKit8Writable", "isEmpty"]
+- !private ["P7FileKit19WritableConvertible", "Iterator"]
+- !private ["P7FileKit19WritableConvertible", "_Element"]
+- !private ["P7FileKit19WritableConvertible", "filter"]
+- !private ["P7FileKit19WritableConvertible", "isEmpty"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "filter"]
+- !private ["Ps14_ArrayProtocol", "isEmpty"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "filter"]
+- !private ["Ps24_DestructorSafeContainer", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "filter"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+depends-nominal:
+- "O24CuckooGeneratorFramework13Accessibility"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Sb"
+- !private "Ps7CVarArg"
+- "V24CuckooGeneratorFramework16ClassDeclaration"
+- !private "Ps10Collection"
+- "P24CuckooGeneratorFramework14ContainerToken"
+- "Vs14CountableRange"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "V24CuckooGeneratorFramework11Initializer"
+- !private "Ps16IteratorProtocol"
+- !private "P24CuckooGeneratorFramework6Method"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "P7Stencil12Normalizable"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "P7FileKit8Readable"
+- !private "Ps8Sequence"
+- !private "P21SourceKittenFramework22SourceKitRepresentable"
+- "SS"
+- "P24CuckooGeneratorFramework5Token"
+- !private "P7FileKit8Writable"
+- !private "P7FileKit19WritableConvertible"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/CYaml.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/FileKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Stencil.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/PathKit.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/SourceKittenFramework.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/CXCompilationDatabase.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/BuildSystem.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/CXString.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/CXErrorCode.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/Platform.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/Index.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/Documentation.h"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/SourceKit-1.0.1/module.modulemap"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Clang_C-1.0.2/module.modulemap"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/SWXMLHash.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/.build/debug/Yams.swiftmodule"
+- "/Users/admin/Desktop/CuckooTest/Pods/Cuckoo/Generator/Packages/Yams-0.1.4/Sources/CYaml/include/yaml.h"
+interface-hash: "74b75af38fe8587906f99c67ce5bcb0d"

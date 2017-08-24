@@ -1,0 +1,6 @@
+framework module KurioLogger {
+  umbrella header "KurioLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}
